@@ -6,8 +6,15 @@ package lab02
     - „znak”, z którego należy zbudować ramkę
 */
 def obramuj(napis: String, znak: Char): String = {
-  // definiujemy funkcję obramowującą
-  "AQQ"
+  
+  val linie = napis.split("\n")
+  val maxDlugosc = linie.map(_.length).max + 4 
+  val ramka = znak.toString * maxDlugosc
+  val result = linie.map(line => s"$znak ${line.padTo(maxDlugosc - 4, ' ')} $znak") // padTo => przykład użycia: 
+                                                                                    // val a = List(1,2,3) val b = a.padTo(5,"c")
+                                                                                    // wynik: 
+                                                                                    // b = List(1,2,3,"c","c")
+  s"$ramka\n${result.mkString("\n")}\n$ramka"
 }
 
 @main def zad_02: Unit = {
