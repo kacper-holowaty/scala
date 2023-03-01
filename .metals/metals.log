@@ -1,0 +1,23 @@
+2023.03.01 16:25:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\kacpe\.vscode\extensions\jp1\.metals\lsp.trace.json or C:\Users\kacpe\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.03.01 16:25:24 INFO  logging to file C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals.log
+2023.03.01 16:25:24 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.01 16:25:25 INFO  time: initialize in 1.7s
+2023.03.01 16:25:28 WARN  Build server is not auto-connectable.
+2023.03.01 16:25:28 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.01 16:25:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab01\src\main\scala\Main.scala
+2023.03.01 16:25:31 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab01\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.03.01 16:25:33 INFO  time: code lens generation in 4.9s
+2023.03.01 16:26:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab01\src\main\scala\Main.scala
+2023.03.01 16:26:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Main.scala
+2023.03.01 16:28:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_00.scala
+2023.03.01 16:28:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_00.scala
+2023.03.01 16:28:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_01.scala
+2023.03.01 16:29:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_01.scala
+2023.03.01 16:29:33 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_02.scala
+2023.03.01 16:29:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_02.scala
