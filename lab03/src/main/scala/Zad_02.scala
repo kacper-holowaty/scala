@@ -17,13 +17,6 @@ def hipoteza(liczba: Int): Unit = {
     else {
       pomocnicza(liczba,i+1,j-1,licznikPrintów)
     }
-    // if (akum == 0) {
-    //   println("Nie znaleziono takich liczb.")
-    //   sys.exit()
-    // }
-    // else {
-    //   sys.exit()
-    // }
   }
   @annotation.tailrec
   def czyPierwsza(n: Int, i: Int): Boolean = {
@@ -36,7 +29,6 @@ def hipoteza(liczba: Int): Unit = {
     }
   }
   pomocnicza(liczba,2,liczba-2)
-  // println(czyPierwsza(liczba))
 }
 
 @main def zad_02(liczba: Int): Unit = {
