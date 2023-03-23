@@ -3,7 +3,7 @@ package lab05
 def chessboard: String = {
   val litery = "abcdefgh"
   val liczby = "12345678".reverse
-  val wynik = liczby.flatMap(liczba => litery.map(n => s"($n,$liczba)")).mkString(" ").toString()
+  val wynik = liczby.flatMap(liczba => litery.map(n => s"($n,$liczba)")).mkString(" ")
   wynik
 }
 
