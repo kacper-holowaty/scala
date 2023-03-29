@@ -6,6 +6,7 @@ def chessboard: /*String*/Any = {
   val a = List('a','b','c','d','e','f','g','h')
   val b = a.map(el => (el,8))
   b
+  //to be continued ...
 }
 
 @main def zadanie_03: Unit = {
