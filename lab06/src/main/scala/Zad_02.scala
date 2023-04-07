@@ -1,7 +1,6 @@
 package lab06
 
-def freqMax[A](list: List[A]): /*(Set[A],Int)*/Any = {
-  // (Set(), 0)
+def freqMax[A](list: List[A]): (Set[A], Int) = {
   val ustaw = list.groupBy(a => a).toList.map((a,b) => (a,b.length))
   val maxWystapien = ustaw.maxBy((a,b) => b)._2 //3
   val helper = ustaw.filter((a,b) => b == maxWystapien).map((a,b) => a).toSet

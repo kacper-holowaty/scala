@@ -1199,3 +1199,736 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.04.04 12:52:30 INFO  Shutting down server
 2023.04.04 12:52:30 INFO  shutting down Metals
 2023.04.04 12:52:30 INFO  Exiting server
+2023.04.04 22:47:09 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.04 22:47:10 INFO  time: initialize in 1.36s
+2023.04.04 22:47:14 WARN  Build server is not auto-connectable.
+2023.04.04 22:47:14 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.04 22:47:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.04 22:47:21 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.04 22:47:24 INFO  time: code lens generation in 10s
+2023.04.04 22:48:00 INFO  Shutting down server
+2023.04.04 22:48:00 INFO  shutting down Metals
+2023.04.04 22:48:00 INFO  Exiting server
+2023.04.06 19:52:39 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.06 19:52:42 INFO  time: initialize in 2.34s
+2023.04.06 19:52:49 WARN  Build server is not auto-connectable.
+2023.04.06 19:52:49 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.06 19:52:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 19:53:07 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala. Using presentation compiler with project's scala-library version: 3.2.2
+kwi 06, 2023 7:53:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+kwi 06, 2023 7:53:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+kwi 06, 2023 7:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+kwi 06, 2023 7:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+kwi 06, 2023 7:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2023.04.06 19:53:31 INFO  time: code lens generation in 42s
+kwi 06, 2023 8:11:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+kwi 06, 2023 8:13:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 456
+2023.04.06 20:14:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:16:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:17:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:17:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 06, 2023 8:23:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 745
+kwi 06, 2023 8:23:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 997
+kwi 06, 2023 8:27:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1519
+2023.04.06 20:27:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 06, 2023 8:27:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1528
+2023.04.06 20:33:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:33:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:34:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:34:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:34:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:35:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:35:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:40:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:41:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 06, 2023 8:41:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2213
+2023.04.06 20:42:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:42:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:42:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:43:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:43:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 06, 2023 8:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2449
+2023.04.06 20:43:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:43:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:43:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:44:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:44:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:45:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:45:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:45:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:46:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 20:46:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 06, 2023 9:15:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2792
+2023.04.06 21:15:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 21:17:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 21:18:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 21:43:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.06 21:45:00 INFO  Shutting down server
+2023.04.06 21:45:00 INFO  shutting down Metals
+2023.04.06 21:45:00 INFO  Exiting server
+2023.04.07 10:40:15 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.07 10:40:17 INFO  time: initialize in 1.41s
+2023.04.07 10:40:21 WARN  Build server is not auto-connectable.
+2023.04.07 10:40:21 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.07 10:40:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:40:28 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.07 10:40:34 INFO  time: code lens generation in 13s
+2023.04.07 10:43:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:45:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:48:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:49:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:49:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:49:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:50:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:50:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:50:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:51:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:51:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 07, 2023 10:56:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1223
+2023.04.07 10:56:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:57:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:57:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 07, 2023 10:58:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1494
+2023.04.07 10:58:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:59:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:59:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 10:59:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:00:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:00:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:00:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:01:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:01:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:02:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 07, 2023 11:02:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1916
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.04.07 11:02:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:02:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:03:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:04:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:04:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:05:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:05:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:05:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:07:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+kwi 07, 2023 11:15:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3246
+2023.04.07 11:16:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:16:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 07, 2023 11:17:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3598
+2023.04.07 11:17:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:17:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:18:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:18:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:19:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:28:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:28:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 07, 2023 11:29:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4069
+2023.04.07 11:29:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:29:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:29:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 11:52:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_01.scala
+2023.04.07 11:53:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_02.scala
+2023.04.07 11:53:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 11:53:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 11:53:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 11:53:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:09:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 07, 2023 12:15:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4606
+2023.04.07 12:16:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4836
+2023.04.07 12:17:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:17:33 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:18:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:18:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5058
+2023.04.07 12:21:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.07 12:21:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+kwi 07, 2023 12:22:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5172
+2023.04.07 12:22:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.07 12:22:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.07 12:22:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_01.scala
+2023.04.07 12:23:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_02.scala
+2023.04.07 12:23:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_03.scala
+2023.04.07 12:23:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.07 12:26:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:27:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:27:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:28:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5735
+2023.04.07 12:31:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:31:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:32:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:32:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:32:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:33:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:33:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:33:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:34:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6536
+kwi 07, 2023 12:34:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6647
+2023.04.07 12:35:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:36:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:36:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:36:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:37:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7254
+2023.04.07 12:37:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:38:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:38:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:38:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7466
+2023.04.07 12:38:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:39:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:39:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:40:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+kwi 07, 2023 12:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7824
+2023.04.07 12:40:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:41:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:41:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:41:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:41:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:41:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:42:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:42:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:42:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 12:45:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 12:46:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 2:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8161
+2023.04.07 14:18:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:19:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 2:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9435
+2023.04.07 14:24:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 2:34:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9998
+2023.04.07 14:35:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:35:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:36:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:36:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:41:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:47:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:57:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:57:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:58:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:58:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 2:58:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11496
+kwi 07, 2023 2:58:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11527
+2023.04.07 14:58:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:58:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 14:59:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:00:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:00:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:00:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11792
+2023.04.07 15:00:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:01:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:01:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:01:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:01:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:03:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:03:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:03:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:04:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:05:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:06:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:07:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:07:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:09:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12444
+2023.04.07 15:11:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:11:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12691
+2023.04.07 15:11:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:12:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:13:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:15:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13076
+2023.04.07 15:20:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:20:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:20:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:21:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:22:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:23:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13766
+2023.04.07 15:24:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14094
+2023.04.07 15:25:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:25:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:26:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:26:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:27:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:27:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:27:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:28:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:28:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:29:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:29:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:35:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:36:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:36:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:37:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:38:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:38:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:39:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:40:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:40:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:40:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:40:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:40:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15875
+2023.04.07 15:41:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16108
+2023.04.07 15:41:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:42:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:43:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16204
+2023.04.07 15:43:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:43:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16234
+2023.04.07 15:43:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:43:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:44:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:44:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:46:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:46:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 15:46:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 3:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16675
+kwi 07, 2023 4:00:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16845
+kwi 07, 2023 4:01:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17166
+kwi 07, 2023 4:02:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17305
+2023.04.07 16:02:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:02:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:03:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:19:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:21:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 4:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17484
+2023.04.07 16:23:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:24:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:24:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:24:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:25:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:25:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:26:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:26:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:26:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:28:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:29:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:29:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.04.07 16:29:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:29:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:29:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:30:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:31:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:31:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:31:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:31:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:32:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:36:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:37:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:37:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:37:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:37:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:38:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:43:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:43:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:44:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:44:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:44:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 4:45:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18371
+2023.04.07 16:45:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 4:47:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18643
+kwi 07, 2023 4:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18683
+2023.04.07 16:48:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:52:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:53:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:56:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:56:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 4:58:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20012
+2023.04.07 16:59:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:59:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 16:59:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:00:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:00:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:00:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 5:07:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20313
+kwi 07, 2023 5:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20326
+kwi 07, 2023 5:15:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21198
+2023.04.07 17:16:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:16:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 5:17:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21874
+kwi 07, 2023 5:21:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22498
+2023.04.07 17:22:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:22:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:22:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:22:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:23:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:24:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:25:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:25:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:30:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.07 17:30:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.07 17:30:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.07 17:30:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 17:31:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_02.scala
+kwi 07, 2023 5:32:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23086
+2023.04.07 17:32:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 5:33:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.04.07 17:33:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 5:33:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+kwi 07, 2023 5:33:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.04.07 17:33:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:34:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:34:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:34:33 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:34:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:36:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:36:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:36:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:37:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 5:38:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24171
+2023.04.07 17:38:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:39:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:39:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:48:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:48:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:49:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:49:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:50:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:50:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 17:52:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:33:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\build.sbt
+2023.04.07 18:34:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\build.sbt
+2023.04.07 18:34:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\build.sbt
+2023.04.07 18:34:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\build.sbt
+2023.04.07 18:35:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\build.sbt
+2023.04.07 18:35:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:35:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
