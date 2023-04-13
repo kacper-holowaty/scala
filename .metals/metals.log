@@ -1932,3 +1932,178 @@ WARNING: Unmatched cancel notification for request id 24171
 2023.04.07 18:35:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\build.sbt
 2023.04.07 18:35:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
 2023.04.07 18:35:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:39:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:39:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:39:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:47:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 6:48:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25734
+2023.04.07 18:48:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:49:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:51:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:54:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:56:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:56:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 18:58:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:00:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 7:01:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27015
+kwi 07, 2023 7:01:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27017
+kwi 07, 2023 7:02:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27128
+2023.04.07 19:02:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 7:03:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27283
+2023.04.07 19:07:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:08:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+kwi 07, 2023 7:08:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28087
+2023.04.07 19:08:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:08:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:10:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:13:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 7:13:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28551
+kwi 07, 2023 7:14:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28681
+2023.04.07 19:14:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:15:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 7:15:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29010
+kwi 07, 2023 7:16:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29201
+2023.04.07 19:17:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:17:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:18:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 7:18:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29425
+2023.04.07 19:18:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 07, 2023 7:19:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29573
+2023.04.07 19:19:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:20:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:20:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:20:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:21:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:22:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:22:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:23:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.07 19:28:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.07 19:28:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_02.scala
+2023.04.07 19:28:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_01.scala
+2023.04.07 19:28:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.07 19:28:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.07 19:28:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.07 19:28:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.07 19:28:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.07 19:30:09 INFO  Shutting down server
+2023.04.07 19:30:09 INFO  shutting down Metals
+2023.04.07 19:30:09 INFO  Exiting server
+2023.04.08 10:59:51 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.08 10:59:52 INFO  time: initialize in 1.17s
+2023.04.08 10:59:56 WARN  Build server is not auto-connectable.
+2023.04.08 10:59:56 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 10:59:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.08 11:00:03 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.08 11:00:07 INFO  time: code lens generation in 11s
+2023.04.08 11:05:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Main.scala
+2023.04.08 11:08:21 ERROR text document: file:///c:/Users/kacpe/.vscode/extensions/jp1/notatki/src/main/scala/Main.scala
+java.nio.file.NoSuchFileException: c:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Main.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1228)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1761)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1759)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+kwi 08, 2023 11:08:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.08 11:11:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 08, 2023 11:11:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2023.04.08 11:15:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_07\src\main\scala\Zad_03.scala
+2023.04.08 11:20:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\01_kolekcje.scala
+2023.04.08 11:21:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\02_obiekty_klasy_i_cechy.scala
+2023.04.08 11:21:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_02.scala
+2023.04.08 11:21:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_03.scala
+2023.04.08 11:24:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_04.scala
+2023.04.08 11:26:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_05.scala
+kwi 08, 2023 11:37:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+2023.04.08 11:38:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_06.scala
+2023.04.08 11:42:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Zad_03.scala
+2023.04.08 11:42:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.08 11:55:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.08 11:57:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.04.08 11:58:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.08 11:58:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.08 12:26:08 INFO  Shutting down server
+2023.04.08 12:26:08 INFO  shutting down Metals
+2023.04.08 12:26:08 INFO  Exiting server
+2023.04.13 13:53:08 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.13 13:53:10 INFO  time: initialize in 1.15s
+2023.04.13 13:53:13 WARN  Build server is not auto-connectable.
+2023.04.13 13:53:13 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.13 13:53:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.13 13:53:17 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.13 16:36:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.13 16:36:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.13 16:36:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+kwi 13, 2023 4:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18

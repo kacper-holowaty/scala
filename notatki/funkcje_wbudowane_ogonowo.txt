@@ -1,0 +1,201 @@
+1. map
+def map[A, B](list: List[A], f: A => B): List[B] = {
+  @annotation.tailrec
+  def loop(l: List[A], akum: List[B]): List[B] = l match {
+    case Nil => akum.reverse
+    case head :: tail => loop(tail, f(head) :: akum)
+  }
+  loop(list, Nil)
+}
+
+2. filter
+def filter[A](list: List[A], p: A => Boolean): List[A] = {
+  @annotation.tailrec
+  def loop(l: List[A], akum: List[A]): List[A] = l match {
+    case Nil => akum.reverse
+    case head :: tail => loop(tail, if (p(head)) head :: akum else akum)
+  }
+  loop(list, Nil)
+}
+
+3.zipWithIndex
+def zipWithIndex[A](list: List[A]): List[(A, Int)] = {
+  @annotation.tailrec
+  def loop(l: List[A], index: Int, akum: List[(A, Int)]): List[(A, Int)] = l match {
+    case Nil => akum.reverse
+    case head :: tail => loop(tail, index + 1, (head, index) :: akum)
+  }
+  loop(list, 0, Nil)
+}
+
+4.foldLeft
+def foldLeft[A, B](list: List[A])(acc: B)(f: (B, A) => B): B = {
+  @annotation.tailrec
+  def foldTailRec(l: List[A], akum: B): B = l match {
+    case head :: tail =>
+      foldTailRec(tail, f(akum, head))
+    case Nil =>
+      akum
+  }
+  foldTailRec(list, acc)
+}
+
+5.zipAll
+def zipAll[A, B](list1: List[A], list2: List[B])(default1: A, default2: B): List[(A, B)] = {
+  @annotation.tailrec
+  def zipAllRec(l1: List[A], l2: List[B], acc: List[(A, B)]): List[(A, B)] = (l1, l2) match {
+    case (Nil, Nil) => acc.reverse
+    case (head1 :: tail1, Nil) =>
+      zipAllRec(tail1, Nil, (head1, default2) :: acc)
+    case (Nil, head2 :: tail2) =>
+      zipAllRec(Nil, tail2, (default1, head2) :: acc)
+    case (head1 :: tail1, head2 :: tail2) =>
+      zipAllRec(tail1, tail2, (head1, head2) :: acc)
+  }
+  zipAllRec(list1, list2, Nil)
+}
+
+6.slice
+def slice[A](list: List[A], start: Int, end: Int): List[A] = {
+  @annotation.tailrec
+  def sliceRec(l: List[A], start: Int, end: Int, acc: List[A]): List[A] = (l, start, end) match {
+    case (Nil, _, _) => acc.reverse
+    case (_, _, x) if x <= 0 => acc.reverse
+    case (head :: tail, 0, n) if n > 0 =>
+      sliceRec(tail, 0, n - 1, head :: acc)
+    case (_ :: tail, m, n) =>
+      sliceRec(tail, m - 1, n - 1, acc)
+  }
+  sliceRec(list, start, end, Nil)
+}
+
+7.last
+def last[A](l: List[A]): A = l match {
+    case head :: Nil => head
+    case _ :: tail => last(tail)
+    case _ => throw new NoSuchElementException("Lista jest pusta")      
+}
+
+8.take
+@annotation.tailrec
+def take(list: List[A], akum: List[A], n: Int, licznik: Int = 0): List[A] = list match {
+    case Nil => akum.reverse
+    case head :: tail if licznik == n => akum.reverse 
+    case head :: tail => take(tail, head :: akum, n, licznik + 1)
+}
+
+9.drop
+@annotation.tailrec
+def drop(list: List[A], n: Int, licznik: Int = 0): List[A] = list match {
+    case Nil => list
+    case head :: tail if licznik == n => list
+    case head :: tail => drop(tail,n,licznik+1)
+}
+
+10.groupBy
+def groupBy[A, B](list: List[A], f: A => B): Map[B, List[A]] = {
+  @annotation.tailrec
+  def groupRec(l: List[A], akum: Map[B, List[A]]): Map[B, List[A]] = l match {
+    case Nil => akum
+    case head :: tail =>
+      val key = f(head)
+      val updatedMap = akum + (key -> (head :: akum.getOrElse(key, Nil)))
+      groupRec(tail, updatedMap)
+  }
+
+  groupRec(list, Map.empty)
+}
+
+//albo opcja bez .getOrElse:
+
+def groupBy[A, B](list: List[A])(f: A => B): Map[B, List[A]] = {
+  @annotation.tailrec
+  def helper(l: List[A], akum: Map[B, List[A]]): Map[B, List[A]] = l match {
+    case Nil => acc
+    case head :: tail =>
+      val key = f(head)
+      val updatedMap = akum.get(key) match {
+        case Some(value) => akum.updated(key, value :+ head)
+        case None => akum + (key -> List(head))
+      }
+      helper(tail, updatedMap)
+  }
+  helper(list, Map.empty[B, List[A]])
+}
+
+
+11.getOrElse
+@annotation.tailrec
+def getOrElse[A](opt: Option[A], default: => A): A = opt match {
+  case Some(value) => value
+  case None => getOrElse(None, default)
+}
+
+12.updated
+
+dla listy:
+
+  def updated [B >: A](index: Int, elem: B): Repr
+
+  Argumenty metody to:
+
+  index: indeks elementu, który ma zostać zaktualizowany
+  elem: nowa wartość, która ma zastąpić stary element
+  B >: A: typ nowej wartości, która może być podtypem typu starej wartości
+
+dla mapy:
+  val map1 = Map("a" -> 1, "b" -> 2, "c" -> 3)
+  val map2 = map1.updated("b", 20) // zaktualizuj wartość przypisaną do klucza "b"
+  val map3 = map1.updated("d", 4) // dodaj nowy klucz i wartość do mapy
+
+rekurencja ogonowa:
+
+def updated[A](list: List[A], index: Int, newValue: A): List[A] = {
+  @annotation.tailrec
+  def helper(l: List[A], i: Int, akum: List[A]): List[A] = l match {
+    case Nil => akum.reverse 
+    case head :: tail if i == 0 => helper(tail, i - 1, newValue :: akum)
+    case head :: tail => helper(tail, i - 1, head :: akum)
+  }
+
+  loop(list, index, Nil)
+}
+
+13.contains
+def contains[A](list: List[A], elem: A): Boolean = {
+  @annotation.tailrec
+  def loop(l: List[A], found: Boolean): Boolean = l match {
+    case Nil => found 
+    case head :: tail if head == elem => true
+    case head :: tail => helper(tail, found)
+  }
+
+  loop(list, false)
+}
+
+14.intersect
+
+def intersect[A](list1: List[A], list2: List[A]): List[A] = {
+  @annotation.tailrec
+  def helper(l: List[A], akum: List[A]): List[A] = l match {
+    case Nil => akum.reverse
+    case head :: tail if list2.contains(head) => helper(tail, head :: akum)
+    case _ :: tail => helper(tail, akum)
+  }
+
+  loop(list1, Nil)
+}
+
+15.get
+def get[K, V](map: Map[K, V], key: K): Option[V] = {
+  @annotation.tailrec
+  def helper(keys: List[K], values: List[V]): Option[V] = (keys, values) match {
+    case (Nil, _) => None // Klucz nie został znaleziony
+    case (_, Nil) => None // Mapa się skończyła
+    case (headKey :: tailKeys, headValue :: tailValues) =>
+      if (headKey == key) Some(headValue) // Znaleziono klucz
+      else loop(tailKeys, tailValues) // Kontynuuj przeszukiwanie
+  }
+
+  loop(map.keys.toList, map.values.toList)
+}
