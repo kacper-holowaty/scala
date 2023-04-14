@@ -2123,3 +2123,2026 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.04.14 09:46:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
 2023.04.14 09:46:41 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala. Using presentation compiler with project's scala-library version: 3.2.2
 2023.04.14 10:04:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 14, 2023 10:57:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 500
+2023.04.14 10:57:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 10:57:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 10:58:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 10:58:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 10:58:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 10:59:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 10:59:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:00:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:01:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:01:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:02:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:02:16 INFO  Detected new build tool in C:\Users\kacpe\.vscode\extensions\jp1\.bsp\sbt.json
+2023.04.14 11:02:16 INFO  Detected new build tool in C:\Users\kacpe\.vscode\extensions\jp1\.bsp\sbt.json
+2023.04.14 11:02:16 INFO  Attempting to connect to the build server...
+2023.04.14 11:02:16 INFO  Attempting to connect to the build server...
+2023.04.14 11:02:16 INFO  Running BSP server [C:\Program Files\Java\jdk-17.0.2/bin/java, -Xms100m, -Xmx100m, -classpath, C:\Program Files (x86)\sbt\\bin\sbt-launch.jar, xsbt.boot.Boot, -bsp, --sbt-launch-jar=C:\Program%20Files%20(x86)\sbt\\bin\sbt-launch.jar]
+2023.04.14 11:02:16 INFO  Running BSP server [C:\Program Files\Java\jdk-17.0.2/bin/java, -Xms100m, -Xmx100m, -classpath, C:\Program Files (x86)\sbt\\bin\sbt-launch.jar, xsbt.boot.Boot, -bsp, --sbt-launch-jar=C:\Program%20Files%20(x86)\sbt\\bin\sbt-launch.jar]
+2023.04.14 11:02:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\kacpe\.vscode\extensions\jp1\.metals\bsp.trace.json or C:\Users\kacpe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.14 11:02:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\kacpe\.vscode\extensions\jp1\.metals\bsp.trace.json or C:\Users\kacpe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.14 11:02:16 INFO  BSP server: [info] waiting for lock on C:\Users\kacpe\.sbt\boot\sbt.boot.lock to be available...
+2023.04.14 11:02:18 INFO  time: Connected to build server in 2.66s
+2023.04.14 11:02:18 INFO  Connected to Build server: sbt v1.6.2
+2023.04.14 11:02:21 INFO  time: Connected to build server in 5.21s
+2023.04.14 11:02:21 INFO  Connected to Build server: sbt v1.6.2
+2023.04.14 11:02:23 INFO  compiling jp1
+2023.04.14 11:02:23 INFO  compiling jp1
+2023.04.14 11:02:23 ERROR java.lang.RuntimeException: No main class detected.
+	at scala.sys.package$.error(package.scala:30)
+	at sbt.Defaults$.$anonfun$bgRunTask$4(Defaults.scala:1970)
+	at scala.Option.getOrElse(Option.scala:189)
+	at sbt.Defaults$.$anonfun$bgRunTask$3(Defaults.scala:1970)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.04.14 11:02:23 ERROR java.lang.RuntimeException: No main class detected.
+	at scala.sys.package$.error(package.scala:30)
+	at sbt.Defaults$.$anonfun$bgRunTask$4(Defaults.scala:1970)
+	at scala.Option.getOrElse(Option.scala:189)
+	at sbt.Defaults$.$anonfun$bgRunTask$3(Defaults.scala:1970)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.04.14 11:02:23 ERROR (Compile / [31mbgRun[0m) No main class detected.
+2023.04.14 11:02:23 ERROR (Compile / [31mbgRun[0m) No main class detected.
+2023.04.14 11:02:23 INFO  Processing workspace/buildTargets
+2023.04.14 11:02:23 INFO  Processing workspace/buildTargets
+2023.04.14 11:02:23 INFO  Processing buildTarget/scalacOptions
+2023.04.14 11:02:23 INFO  Processing buildTarget/scalacOptions
+2023.04.14 11:02:24 INFO  Processing buildTarget/sources
+2023.04.14 11:02:24 INFO  Processing buildTarget/sources
+2023.04.14 11:02:24 INFO  Processing buildTarget/dependencySources
+2023.04.14 11:02:34 INFO  time: Imported build in 15s
+2023.04.14 11:02:34 INFO  Processing buildTarget/dependencySources
+2023.04.14 11:02:34 INFO  time: Imported build in 13s
+kwi 14, 2023 11:02:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: shutdown
+kwi 14, 2023 11:02:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: shutdown
+2023.04.14 11:02:38 WARN  sbt does not support `buildTarget/jvmRunEnvironment`, unable to fetch run environment.
+2023.04.14 11:02:38 INFO  time: indexed workspace in 3.5s
+2023.04.14 11:02:38 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:02:38 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:02:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.14 11:02:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:02:38 INFO  Running BSP server [C:\Program Files\Java\jdk-17.0.2/bin/java, -Xms100m, -Xmx100m, -classpath, C:\Program Files (x86)\sbt\\bin\sbt-launch.jar, xsbt.boot.Boot, -bsp, --sbt-launch-jar=C:\Program%20Files%20(x86)\sbt\\bin\sbt-launch.jar]
+2023.04.14 11:02:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\kacpe\.vscode\extensions\jp1\.metals\bsp.trace.json or C:\Users\kacpe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.14 11:02:38 INFO  Running BSP server [C:\Program Files\Java\jdk-17.0.2/bin/java, -Xms100m, -Xmx100m, -classpath, C:\Program Files (x86)\sbt\\bin\sbt-launch.jar, xsbt.boot.Boot, -bsp, --sbt-launch-jar=C:\Program%20Files%20(x86)\sbt\\bin\sbt-launch.jar]
+2023.04.14 11:02:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\kacpe\.vscode\extensions\jp1\.metals\bsp.trace.json or C:\Users\kacpe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.14 11:02:40 INFO  BSP server: [info] waiting for lock on C:\Users\kacpe\.sbt\boot\sbt.boot.lock to be available...
+2023.04.14 11:02:44 INFO  BSP server: [info] server was not detected. starting an instance
+2023.04.14 11:02:44 INFO  BSP server: [warn] server is started using sbt-launch jar directly
+2023.04.14 11:02:44 INFO  BSP server: [warn] this is not the recommended way: .sbtopts and .jvmopts files are not loaded and SBT_OPTS is ignored
+2023.04.14 11:02:44 INFO  BSP server: [warn] either upgrade sbt.bat to its latest version or make sure it is accessible from $PATH, and run 'sbt bspConfig'
+2023.04.14 11:02:50 INFO  time: indexed workspace in 15s
+2023.04.14 11:02:50 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:02:50 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:02:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.14 11:02:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:02:51 INFO  BSP server: [info] server was not detected. starting an instance
+2023.04.14 11:02:51 INFO  BSP server: [warn] server is started using sbt-launch jar directly
+2023.04.14 11:02:51 INFO  BSP server: [warn] this is not the recommended way: .sbtopts and .jvmopts files are not loaded and SBT_OPTS is ignored
+2023.04.14 11:02:51 INFO  BSP server: [warn] either upgrade sbt.bat to its latest version or make sure it is accessible from $PATH, and run 'sbt bspConfig'
+2023.04.14 11:03:38 ERROR Timeout waiting for 'build/initialize' response
+2023.04.14 11:03:38 ERROR Timeout waiting for 'build/initialize' response
+kwi 14, 2023 11:05:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:05:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:05:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:06:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:06:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:06:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:06:01 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:06:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 14, 2023 11:06:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:14:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:14:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:14:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:14:45 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:14:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+kwi 14, 2023 11:14:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:14:47 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:14:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+kwi 14, 2023 11:14:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:14:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:14:49 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:14:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+kwi 14, 2023 11:14:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:14:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:08 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+kwi 14, 2023 11:15:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:10 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+kwi 14, 2023 11:15:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:10 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+kwi 14, 2023 11:15:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:13 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+kwi 14, 2023 11:15:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:14 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+kwi 14, 2023 11:15:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def freqMax[A](list: List[A]): (Set[A], Int) = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:29 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+kwi 14, 2023 11:15:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab06%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def subseq[A](list: List[A], begIdx: Int, endIdx: Int): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:32 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_01.scala
+kwi 14, 2023 11:15:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:34 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_02.scala
+kwi 14, 2023 11:15:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:35 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_03.scala
+kwi 14, 2023 11:15:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:36 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_02.scala
+kwi 14, 2023 11:15:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_02.scala:3: error: illegal start of definition def
+def deStutter[A](list: List[A]): List[A] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:36 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_01.scala
+kwi 14, 2023 11:15:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_01.scala:3: error: illegal start of definition def
+def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:15:37 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2023.04.14 11:15:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_03.scala
+kwi 14, 2023 11:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+kwi 14, 2023 11:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fkacpe%2F.vscode%2Fextensions%2Fjp1%2Flab05%2Fsrc%2Fmain%2Fscala%2FZad_03.scala:3: error: illegal start of definition def
+def chessboard: String = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.14 11:20:36 INFO  Shutting down server
+2023.04.14 11:20:36 INFO  shutting down Metals
+2023.04.14 11:20:36 INFO  Failed to run request with params ScalaMainClassesResult
+2023.04.14 11:20:36 INFO  Failed to run request with params ScalaTestClassesResult
+2023.04.14 11:20:36 INFO  Failed to run request with params ScalaMainClassesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:528)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:439)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.04.14 11:20:36 ERROR cancellation error
+java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.super$get(FutureConvertersImpl.scala:92)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.$anonfun$get$2(FutureConvertersImpl.scala:92)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.package$.blocking(package.scala:124)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.get(FutureConvertersImpl.scala:92)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:152)
+	at scala.meta.internal.metals.MetalsLspService.shutdown(MetalsLspService.scala:1051)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:221)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:528)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:439)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.04.14 11:20:36 INFO  Failed to run request with params ScalaTestClassesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:528)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:439)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.04.14 11:20:36 INFO  Exiting server
+2023.04.14 11:22:34 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.14 11:22:37 INFO  time: initialize in 2.91s
+2023.04.14 11:22:44 WARN  Build server is not auto-connectable.
+2023.04.14 11:22:44 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.14 11:22:44 INFO  Shutting down server
+2023.04.14 11:22:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:22:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_03.scala
+2023.04.14 11:22:44 INFO  shutting down Metals
+2023.04.14 11:23:53 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kacpe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.14 11:23:58 INFO  time: initialize in 4.79s
+2023.04.14 11:24:00 WARN  Build server is not auto-connectable.
+2023.04.14 11:24:00 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.14 11:24:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab01\src\main\scala\Main.scala
+2023.04.14 11:24:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_03.scala
+2023.04.14 11:24:04 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab01\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.14 11:24:11 INFO  time: code lens generation in 10s
+2023.04.14 11:26:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_00.scala
+kwi 14, 2023 11:35:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+2023.04.14 11:37:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_01.scala
+2023.04.14 11:38:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab02\src\main\scala\Zad_02.scala
+2023.04.14 11:39:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_01.scala
+2023.04.14 11:44:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_02.scala
+2023.04.14 11:45:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_03.scala
+2023.04.14 11:46:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_04.scala
+2023.04.14 11:53:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.14 11:53:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_01.scala
+2023.04.14 11:53:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_02.scala
+2023.04.14 11:53:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_03.scala
+2023.04.14 11:53:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab03\src\main\scala\Zad_04.scala
+2023.04.14 11:54:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab04\src\main\scala\lab04\Zad_01.scala
+2023.04.14 11:54:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab04\src\main\scala\lab04\Zad_02.scala
+2023.04.14 11:57:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab04\src\main\scala\lab04\Zad_03.scala
+2023.04.14 11:58:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_01.scala
+2023.04.14 12:03:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_02.scala
+2023.04.14 12:04:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab05\src\main\scala\Zad_03.scala
+2023.04.14 12:04:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.14 12:05:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_01.scala
+2023.04.14 12:05:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab06\src\main\scala\Zad_02.scala
+2023.04.14 12:07:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_01.scala
+2023.04.14 12:09:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_02.scala
+2023.04.14 12:09:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.04.14 12:16:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_04.scala
+2023.04.14 12:17:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\01_kolekcje.scala

@@ -29,7 +29,7 @@ def zipWithIndex[A](list: List[A]): List[(A, Int)] = {
 }
 
 4.foldLeft
-def foldLeft[A, B](list: List[A])(acc: B)(f: (B, A) => B): B = {
+def foldLeft[A, B](list: List[A])(akum: B)(f: (B, A) => B): B = {
   @annotation.tailrec
   def foldTailRec(l: List[A], akum: B): B = l match {
     case head :: tail =>
@@ -37,7 +37,7 @@ def foldLeft[A, B](list: List[A])(acc: B)(f: (B, A) => B): B = {
     case Nil =>
       akum
   }
-  foldTailRec(list, acc)
+  foldTailRec(list, akum)
 }
 
 5.zipAll
@@ -198,4 +198,14 @@ def get[K, V](map: Map[K, V], key: K): Option[V] = {
   }
 
   loop(map.keys.toList, map.values.toList)
+}
+
+16.binaryTodecimal
+def binaryToDecimal(binary: String): Int = {
+  @annotation.tailrec
+  def helper(binary: String, akum: Int): Int = {
+    if (binary.isEmpty) akum
+    else helper(binary.tail, akum * 2 + binary.head.asDigit)
+  }
+  helper(binary, acc = 0)
 }
