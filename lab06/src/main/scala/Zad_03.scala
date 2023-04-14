@@ -38,12 +38,23 @@ def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
     case head :: tail => drop(tail,n,licznik+1)
   }
 
+  def areLastElementsEqual[A](list1: List[A], list2: List[A]): Boolean = {
+    @annotation.tailrec
+    def helper(list1: List[A], list2: List[A], akum: Boolean): Boolean = (list1, list2) match {
+      case (Nil, Nil) => akum
+      case (head1 :: Nil, head2 :: Nil) => akum && (head1 == head2)
+      case (head1 :: tail1, head2 :: tail2) => helper(tail1, tail2, head1 == head2)
+      case _ => false
+    }
+    helper(list1, list2, akum = true)
+  }
+
   @annotation.tailrec
   def helper(list: List[A],akum: List[List[A]]=Nil): List[List[A]] = list match {
     case Nil => akum.reverse
     case _ => 
       val wez = take(list,Nil,len)
-      if (wez.nonEmpty && wez.last == list.last) {
+      if (wez.nonEmpty && areLastElementsEqual(wez, list)) {
         (wez :: akum).reverse
       } else {
         val przesuniecie = drop(list,shift)
@@ -62,4 +73,7 @@ def difficult[A](list: List[A])(len: Int, shift: Int): List[List[A]] = {
   val (list2, len2, shift2) = ( List(1,2,3,4,5), 2, 2 )
   println(difficult(list2)(len2, shift2) == List(List(1,2), List(3,4), List(5)))
   println(difficult(list2)(len2,shift2)) 
+
+  val (list3, len3, shift3) = ( List(2,2,2,2,2), 2, 2)
+  println(difficult(list3)(len3,shift3)) 
 }
