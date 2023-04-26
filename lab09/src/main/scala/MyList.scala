@@ -60,16 +60,34 @@ object MyList {
   def append[A](list1: MyList[A], list2: MyList[A]): MyList[A] = {
     @annotation.tailrec
     def helper(list1: MyList[A], list2: MyList[A], akum: MyList[A] = Empty): MyList[A] = (list1, list2) match {
-      case (Cons(head1,tail1), Cons(head2,tail2)) => helper(tail1,list2)
+      case (Cons(head1,tail1), Cons(head2,tail2)) => helper(tail1,list2,Cons(head1,akum))
+      case (Empty, Cons(head2,tail2)) => helper(list1, tail2, Cons(head2,akum))
+      case (Cons(head1,tail1), Empty) => helper(tail1, list2, Cons(head1,akum))
+      case (Empty, Empty) => reverse(akum)
     }
+    helper(list1,list2)
   }
 
   // wynik: MyList-a składająca się ze wszystkich alementów argumentu, poza ostatnim
-  def allButLast[A](list: MyList[A]): MyList[A] = ???
+  def allButLast[A](list: MyList[A]): MyList[A] = {
+    @annotation.tailrec
+    def helper(list: MyList[A], akum: MyList[A] = Empty): MyList[A] = list match {
+      case Cons(head, Empty) => reverse(akum)
+      case Cons(head, tail) => helper(tail, Cons(head, akum))
+      case _ => reverse(akum)
+    }
+    helper(list)
+  }
 
   // wynik: MyList-a złożona z wyników zastosowania funkcji f do elementów list
-  def map[A,B](list: MyList[A])(f: A => B): MyList[B] = ??? 
-
+  def map[A,B](list: MyList[A])(f: A => B): MyList[B] = {
+    @annotation.tailrec
+    def helper(list: MyList[A], akum: MyList[B] = Empty): MyList[B] = list match {
+      case Cons(head, tail) => helper(tail,Cons(f(head), akum))
+      case _ => reverse(akum)
+    } 
+    helper(list)
+  }
 }
 
 @main def listy: Unit = {
@@ -94,4 +112,13 @@ object MyList {
 
   val res6 = MyList.dropWhile(l1)(a => a%2!=0)
   println(s"MyList.dropWhile($l1) == $res6")
+
+  val res7 = MyList.append(l1,l2)
+  println(s"MyList.append($l1,$l2) == $res7")
+
+  val res8 = MyList.allButLast(l1)
+  println(s"MyList.allButLast($l1) == $res8")
+
+  val res9 = MyList.map(l1)(a => a*a)
+  println(s"MyList.map($l1) == $res9")
 }
