@@ -4514,3 +4514,237 @@ Exception in thread "pool-3-thread-2" java.lang.InterruptedException
 kwi 26, 2023 12:27:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 7588
 2023.04.26 12:27:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:27:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:27:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:27:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:28:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:28:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:29:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:30:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:32:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.26 12:33:46 INFO  Shutting down server
+2023.04.26 12:33:46 INFO  shutting down Metals
+2023.04.26 12:33:46 INFO  Exiting server
+2023.04.28 18:47:33 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.3.
+kwi 28, 2023 6:47:33 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+kwi 28, 2023 6:47:33 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+kwi 28, 2023 6:47:33 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+kwi 28, 2023 6:47:34 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+kwi 28, 2023 6:47:34 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+kwi 28, 2023 6:47:34 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+kwi 28, 2023 6:47:34 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.28 18:47:34 INFO  time: initialize in 1.17s
+2023.04.28 18:47:37 WARN  Build server is not auto-connectable.
+2023.04.28 18:47:37 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.28 18:47:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.04.28 18:47:44 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.28 18:47:47 INFO  time: code lens generation in 9.81s
+2023.04.28 18:49:52 INFO  Shutting down server
+2023.04.28 18:49:52 INFO  shutting down Metals
+2023.04.28 18:49:52 INFO  Exiting server
+2023.05.01 10:03:58 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.77.3.
+maj 01, 2023 10:03:58 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+maj 01, 2023 10:03:58 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+maj 01, 2023 10:03:58 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+maj 01, 2023 10:03:59 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+maj 01, 2023 10:03:59 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.041s)
+maj 01, 2023 10:03:59 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+maj 01, 2023 10:03:59 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.01 10:03:59 INFO  time: initialize in 1.14s
+2023.05.01 10:04:02 WARN  Build server is not auto-connectable.
+2023.05.01 10:04:02 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.01 10:04:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 10:04:12 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.01 10:04:17 INFO  time: code lens generation in 14s
+2023.05.01 10:05:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab09\src\main\scala\MyList.scala
+2023.05.01 10:06:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\02_obiekty_klasy_i_cechy.scala
+2023.05.01 10:07:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_08\src\main\scala\wyk07\02_obiekty_klasy_i_cechy.scala
+2023.05.01 10:07:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_08\src\main\scala\wyk08\01_obiekty_klasy_i_cechy.scala
+2023.05.01 10:07:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk08\01_obiekty_klasy_i_cechy.scala
+2023.05.01 10:29:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk08\01_obiekty_klasy_i_cechy.scala
+2023.05.01 10:30:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk08\01_obiekty_klasy_i_cechy.scala
+2023.05.01 10:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk09\01.scala
+2023.05.01 10:35:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk09\02.scala
+2023.05.01 10:49:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_10\src\main\scala\01_Wprowadzenie.scala
+2023.05.01 10:50:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_10\src\main\scala\02_Tozsamosci.scala
+2023.05.01 10:51:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_10\src\main\scala\03_PingPong.scala
+2023.05.01 10:51:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_10\src\main\scala\02_Tozsamosci.scala
+2023.05.01 10:52:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_10\src\main\scala\03_PingPong.scala
+2023.05.01 10:53:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 10:53:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab09\src\main\scala\MyList.scala
+maj 01, 2023 10:55:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 390
+2023.05.01 11:14:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:16:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk08\01_obiekty_klasy_i_cechy.scala
+2023.05.01 11:16:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk09\01.scala
+2023.05.01 11:17:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_09\src\main\scala\wyk09\02.scala
+2023.05.01 11:20:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:20:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:20:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 11:26:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1119
+maj 01, 2023 11:26:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1138
+maj 01, 2023 11:35:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1424
+maj 01, 2023 11:35:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1471
+maj 01, 2023 11:35:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1472
+maj 01, 2023 11:37:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1931
+2023.05.01 11:38:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:39:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:39:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:43:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 11:45:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2520
+maj 01, 2023 11:45:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2587
+maj 01, 2023 11:46:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2693
+2023.05.01 11:46:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:48:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:49:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:53:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:54:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:54:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 11:55:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3211
+2023.05.01 11:55:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:55:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:55:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:56:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:56:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:57:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 11:58:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 12:14:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3729
+2023.05.01 12:15:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:15:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:16:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:16:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 12:16:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3966
+2023.05.01 12:17:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:17:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:20:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4110
+2023.05.01 12:21:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:21:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:21:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:24:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:24:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:25:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:28:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:29:56 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:30:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 12:34:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4927
+maj 01, 2023 12:34:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5000
+2023.05.01 12:34:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 12:35:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.05.01 12:35:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:35:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:42:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\lab10\Frm.scala
+maj 01, 2023 12:54:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5212
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+maj 01, 2023 12:56:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5430
+2023.05.01 12:56:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 12:59:23 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:01:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:02:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:02:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:02:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:10:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:12:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:12:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 1:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6042
+2023.05.01 13:14:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:16:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:17:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:17:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:17:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:18:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:19:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:19:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:19:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:19:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:19:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 1:20:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6618
+2023.05.01 13:21:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:22:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:31:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:31:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:32:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:33:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:33:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:33:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:34:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:34:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:34:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:34:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:35:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.05.01 13:35:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:36:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:37:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:37:19 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:37:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:43:00 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:43:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:43:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:44:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+maj 01, 2023 1:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8629
+maj 01, 2023 1:46:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8817
+2023.05.01 13:47:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:48:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:50:16 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:50:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:50:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:51:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:51:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:52:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:54:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:54:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.05.01 13:54:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala

@@ -13,9 +13,8 @@ class Q(l: Int, m: Int) extends Ordered[Q] {
   //
   // Żeby poprawić kod wystarczy np. działać z wartościami bezwzględnymi:
   private val (aL, aM) = (l.abs, m.abs)
-  private val nwdLM = nwd(aL, aM)
-  val licz = znak * aL / nwdLM
-  val mian = aM / nwdLM
+  val licz = znak * aL / nwd(aL, aM)
+  val mian = aM / nwd(aL, aM)
 
   // mnożenie liczb wymiernych
   def *(q: Q): Q = Q(licz * q.licz, mian * q.mian)
