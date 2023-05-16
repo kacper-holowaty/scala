@@ -1,28 +1,28 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 17 products, 5 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 47 products, 5 sources, 3 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Zad_04.scala, ${BASE}/src/main/scala/Zad_02.scala, ${BASE}/src/main/scala/Zad_03.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/Zad_01.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Zad_02.scala, ${BASE}/src/main/scala/Zad_01.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Zad_04.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Zad_02.scala, ${BASE}/src/main/scala/Zad_01.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Zad_04.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(lab11.Piłeczka, lab11.Gracz01, lab11.Zad_01$package, lab11.main3, lab11.Graj01)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(lab11_4.main4a, lab11_4.Zad_04$package, lab11_4.Gracz04a, lab11_4.Piłeczka, lab11_4.Graj04a)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(lab11.Piłeczka, lab11.Gracz01, lab11.Zad_01$package, lab11.main3, lab11.Graj01)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Zad_02.scala, ${BASE}/src/main/scala/Zad_01.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.Piłeczka, lab11.Gracz01, lab11.Zad_01$package, lab11.main3, lab11.Graj01[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(lab11_4.main4a, lab11_4.Zad_04$package, lab11_4.Gracz04a, lab11_4.Piłeczka, lab11_4.Graj04a)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Zad_04.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11_4.main4a, lab11_4.Zad_04$package, lab11_4.Gracz04a, lab11_4.Piłeczka, lab11_4.Graj04a[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/LABPK/kholowaty/jp1/lab11/target/scala-3.2.2/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.2.2/scala3-sbt-bridge-3.2.2.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3eb34a31 for Scala Compiler version 3.2.2[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\kacpe\.vscode\extensions\jp1\lab11\target\scala-3.2.2\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.2.2\scala3-sbt-bridge-3.2.2.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3b9d740e for Scala Compiler version 3.2.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-explain[0m
@@ -35,83 +35,11 @@
 [0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
 [0m[[0m[0mdebug[0m] [0m[0m	utf8[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar:/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.2.2\scala3-library_3-3.2.2.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/LABPK/kholowaty/jp1/lab11/target/scala-3.2.2/classes:/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.6.20/akka-actor_3-2.6.20.jar:/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_3/2.6.20/akka-slf4j_3-2.6.20.jar:/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar:/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0.jar:/home/LABPK/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.427755454 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\kacpe\.vscode\extensions\jp1\lab11\target\scala-3.2.2\classes;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_3\2.6.20\akka-actor_3-2.6.20.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_3\2.6.20\akka-slf4j_3-2.6.20.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_3\1.0.0\scala-java8-compat_3-1.0.0.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.4816217 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.Zad_01$package...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.Zad_01$package[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.Zad_01$package)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.Zad_01$package,ModifiedNames(changes = UsedName(main1,[Default]), UsedName(main3,[Default]))) invalidates 1 classes due to The lab11.Zad_01$package has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(main1,[Default]), UsedName(main3,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.Zad_01$package)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.Graj02...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.Graj02[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.Graj02)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.Graj02,ModifiedNames(changes = UsedName(Graj02;init;,[Default]), UsedName(Serializable;init;,[Default]), UsedName(##,[Default]), UsedName(przeciwnik,[Default]), UsedName(copy$default$1,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(Graj02;init;$,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(_2,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(notifyAll,[Default]), UsedName(copy$default$2,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Mirror;init;,[Default]), UsedName(Product;init;,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(productElementName,[Default]), UsedName(canEqual,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(unapply,[Default]), UsedName(productArity,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(copy,[Default]), UsedName(apply,[Default]), UsedName(fromProduct,[Default]), UsedName(isInstanceOf,[Default]), UsedName(MirroredLabel,[Default]), UsedName(maks,[Default]), UsedName(asInstanceOf,[Default]), UsedName(productPrefix,[Default]), UsedName(Graj02,[Default]), UsedName(_1,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(productElement,[Default]))) invalidates 1 classes due to The lab11.Graj02 has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Graj02;init;,[Default]), UsedName(Serializable;init;,[Default]), UsedName(##,[Default]), UsedName(przeciwnik,[Default]), UsedName(copy$default$1,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(Graj02;init;$,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(_2,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(notifyAll,[Default]), UsedName(copy$default$2,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Mirror;init;,[Default]), UsedName(Product;init;,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(productElementName,[Default]), UsedName(canEqual,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(unapply,[Default]), UsedName(productArity,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(copy,[Default]), UsedName(apply,[Default]), UsedName(fromProduct,[Default]), UsedName(isInstanceOf,[Default]), UsedName(MirroredLabel,[Default]), UsedName(maks,[Default]), UsedName(asInstanceOf,[Default]), UsedName(productPrefix,[Default]), UsedName(Graj02,[Default]), UsedName(_1,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(productElement,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.Graj02)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.Gracz02...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.Gracz02[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.Gracz02)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.Gracz02,ModifiedNames(changes = UsedName(##,[Default]), UsedName(Receive,[Default]), UsedName(postRestart,[Default]), UsedName(Actor;init;,[Default]), UsedName(hashCode,[Default]), UsedName(aroundPostRestart,[Default]), UsedName(supervisorStrategy,[Default]), UsedName(gramyDalej,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName(aroundPreRestart,[Default]), UsedName($isInstanceOf,[Default]), UsedName(ActorLogging;init;,[Default]), UsedName(aroundPostStop,[Default]), UsedName(notifyAll,[Default]), UsedName(log,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(aroundPreStart,[Default]), UsedName(equals,[Default]), UsedName(Gracz02;init;,[Default]), UsedName(preStart,[Default]), UsedName(postStop,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(Gracz02,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(receive,[Default]), UsedName(sender,[Default]), UsedName(isInstanceOf,[Default]), UsedName(unhandled,[Default]), UsedName(aroundReceive,[Default]), UsedName(context,[Implicit]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]), UsedName(preRestart,[Default]), UsedName(!=,[Default]), UsedName(self,[Implicit]))) invalidates 1 classes due to The lab11.Gracz02 has the following implicit definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(context,[Implicit]), UsedName(self,[Implicit]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.Gracz02)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.Piłeczka2...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.Piłeczka2[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.Piłeczka2)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.Piłeczka2,ModifiedNames(changes = UsedName(Serializable;init;,[Default]), UsedName(##,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(hashCode,[Default]), UsedName(MirroredType,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(Singleton;init;,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(Piłeczka2,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Mirror;init;,[Default]), UsedName(Product;init;,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(productElementName,[Default]), UsedName(canEqual,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(Piłeczka2;init;$,[Default]), UsedName(productArity,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(MirroredElemTypes,[Default]), UsedName(fromProduct,[Default]), UsedName(isInstanceOf,[Default]), UsedName(MirroredLabel,[Default]), UsedName(asInstanceOf,[Default]), UsedName(productPrefix,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(productElement,[Default]))) invalidates 1 classes due to The lab11.Piłeczka2 has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Serializable;init;,[Default]), UsedName(##,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(hashCode,[Default]), UsedName(MirroredType,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(Singleton;init;,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(Piłeczka2,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Mirror;init;,[Default]), UsedName(Product;init;,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(productElementName,[Default]), UsedName(canEqual,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(Piłeczka2;init;$,[Default]), UsedName(productArity,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(MirroredElemTypes,[Default]), UsedName(fromProduct,[Default]), UsedName(isInstanceOf,[Default]), UsedName(MirroredLabel,[Default]), UsedName(asInstanceOf,[Default]), UsedName(productPrefix,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(productElement,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.Piłeczka2)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.main2...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.main2[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.main2)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.main2,ModifiedNames(changes = UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main2;init;,[Default]), UsedName(asInstanceOf,[Default]), UsedName(main,[Default]), UsedName(ne,[Default]), UsedName(main2,[Default]), UsedName(!=,[Default]))) invalidates 1 classes due to The lab11.main2 has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main2;init;,[Default]), UsedName(asInstanceOf,[Default]), UsedName(main,[Default]), UsedName(ne,[Default]), UsedName(main2,[Default]), UsedName(!=,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.main2)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.main3...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.main3[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.main3)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.main3,ModifiedNames(changes = UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(main3;init;,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(main3,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(main,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]))) invalidates 1 classes due to The lab11.main3 has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(main3;init;,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(main3,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(main,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.main3)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.Zad_02$package...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.Zad_02$package[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.Zad_02$package)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.Zad_02$package,ModifiedNames(changes = UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(Zad_02$package,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(Zad_02$package;init;$,[Default]), UsedName(ne,[Default]), UsedName(main2,[Default]), UsedName(!=,[Default]))) invalidates 1 classes due to The lab11.Zad_02$package has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(Zad_02$package,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(Zad_02$package;init;$,[Default]), UsedName(ne,[Default]), UsedName(main2,[Default]), UsedName(!=,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.Zad_02$package)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from lab11.main1...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11.main1[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(lab11.main1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(lab11.main1,ModifiedNames(changes = UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(main1;init;,[Default]), UsedName(main1,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(main,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]))) invalidates 1 classes due to The lab11.main1 has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(notify,[Default]), UsedName(clone,[Default]), UsedName(synchronized,[Default]), UsedName($isInstanceOf,[Default]), UsedName(main1;init;,[Default]), UsedName(main1,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(main,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(lab11.main1)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m

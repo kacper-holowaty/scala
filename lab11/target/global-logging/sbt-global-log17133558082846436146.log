@@ -1,0 +1,80 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(75a46d2c-ea4f-4fb0-8a7c-e9797e0c2163), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\kacpe\.vscode\extensions\jp1\lab11\target\scala-3.2.2\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E100] Syntax Error: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala:25:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m  [33mval[0m [36mgraczA[0m = system.actorOf(Props[[35mGracz03[0m], [31m"GraczA"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                              ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            [33mmethod[0m [35mapply[0m in [33mobject[0m [35mProps[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Previously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m def next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m In Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Excluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mPreviously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mdef next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m          |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mIn Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0mExcluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E100] Syntax Error: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala:26:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m  [33mval[0m [36mgraczB[0m = system.actorOf(Props[[35mGracz03[0m], [31m"GraczB"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                              ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            [33mmethod[0m [35mapply[0m in [33mobject[0m [35mProps[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Previously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m def next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m In Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Excluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mPreviously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mdef next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m          |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mIn Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0mExcluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E100] Syntax Error: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala:27:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m  [33mval[0m [36mgraczC[0m = system.actorOf(Props[[35mGracz03[0m], [31m"GraczC"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                              ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            [33mmethod[0m [35mapply[0m in [33mobject[0m [35mProps[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Previously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m def next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m In Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Excluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mPreviously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mdef next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m          |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mIn Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0mExcluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 15 maj 2023, 18:31:14[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
