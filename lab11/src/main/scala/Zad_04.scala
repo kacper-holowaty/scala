@@ -10,38 +10,71 @@ class Gracz04a extends Actor with ActorLogging {
 
     def receive: Receive = {
         case Graj04a(przeciwnicy) =>
-            // val gracze = List(przeciwnik1,przeciwnik2)
-            // val random = new Random()
-            // val zaczyna = gracze(random.nextInt(2))
-            // val nastepny = gracze.filterNot(_ == zaczyna).head
-            // println(zaczyna)
-            // println(nastepny)
             log.info(s"Zaczynamy!")
-            // val nastepniGracze = przeciwnicy.tail :+ przeciwnicy.head
             przeciwnicy.head ! Piłeczka
             context.become(gramyDalej(przeciwnicy))
         case Piłeczka => 
-            log.info("Gramy?")
+            log.info("Otrzymano piłeczkę!")
+            sender() ! Piłeczka
             
     }
     
     def gramyDalej(przeciwnicy: List[ActorRef]): Receive = {
         case Piłeczka =>
             val nastepniGracze = przeciwnicy.tail :+ przeciwnicy.head  
-            log.info("Otrzymano piłeczkę!")
+            // log.info("Otrzymano piłeczkę!")
             przeciwnicy.head ! Piłeczka
             context.become(gramyDalej(nastepniGracze)) 
   }
-
 }
 
 @main def main4a: Unit = {
   val system = ActorSystem("PingPong")
-//   println("Podaj liczbe graczy: ")
+//   println("Podaj liczbe graczy: ") //do uruchamiania za pomocą run
 //   val liczbaGraczy = io.StdIn.readLine().toInt
   val liczbaGraczy = 12
   val lista = for (
-    x <- (0 to liczbaGraczy-1).toList
-  ) yield {system.actorOf(Props[Gracz04a](), s"Gracz${x+1}")}
+    x <- (0 to liczbaGraczy).toList
+  ) yield {system.actorOf(Props[Gracz04a](), s"Gracz${x}")}
   lista.head ! Graj04a(lista)
+}
+
+case class Graj04b(lista: List[ActorRef])
+
+class Gracz04b extends Actor with ActorLogging {
+
+    def receive: Receive = {
+        case Graj04b(przeciwnicy) =>
+            log.info(s"Zaczynamy!")
+            przeciwnicy.head ! Piłeczka
+            context.become(gramyDalej(przeciwnicy))
+        case Piłeczka => 
+            log.info("Otrzymano piłeczkę!")
+            sender() ! Piłeczka
+
+            
+    }
+    
+    def gramyDalej(przeciwnicy: List[ActorRef]): Receive = {
+        case Piłeczka =>
+            val nastepny = losowyGracz(przeciwnicy)  
+            // log.info("Otrzymano piłeczkę!")
+            nastepny ! Piłeczka
+    }
+
+    def losowyGracz(przeciwnicy: List[ActorRef]): ActorRef = {
+        val random = new Random()
+        val index = random.nextInt(przeciwnicy.length)
+        przeciwnicy(index)
+    }
+
+}
+
+@main def main4b: Unit = {
+  val system = ActorSystem("PingPong")
+  val liczbaGraczy = 12
+  val lista = for (
+    x <- (0 to liczbaGraczy).toList
+  ) yield {system.actorOf(Props[Gracz04b](), s"Gracz${x}")}
+  lista.head ! Graj04b(lista)
 }

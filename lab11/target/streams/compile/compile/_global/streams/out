@@ -1,19 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_04.scala:22:38 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m            context.become(gramyDalej(nastepniGracze))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                      ^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                      Not found: nastepniGracze[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `nastepniGracze` is not bound, that is,[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `nastepniGracze` or its declaration has either been[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
-[0m[[0m[31merror[0m] [0m[0mThe identifier for `nastepniGracze` is not bound, that is,[0m
-[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
-[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `nastepniGracze` or its declaration has either been[0m
-[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala:36:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m36 |[0m    gracz ! Graj03(przeciwnik)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m            ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmissing argument for parameter przeciwnik2 of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mGraj03[0m: (przeciwnik1: akka.actor.ActorRef, przeciwnik2: akka.actor.ActorRef): [0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  lab11_3.Graj03[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

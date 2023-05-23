@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(a7fcf959-e78e-4749-85b6-bcf3f27bd2b6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\kacpe\.vscode\extensions\jp1\lab12\target\scala-3.2.2\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStopping application [0m[34mlab12[0m[33m (by killing the forked JVM) ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStarting application [0m[35mlab12[0m[33m in the background ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 18 maj 2023, 14:16:17[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
