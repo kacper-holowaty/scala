@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/LABPK/kholowaty/jp1/lab13/target/scala-3.2.2/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Runda$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Stop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Start$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Runda$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Stop$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Runda$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Stop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Start$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Runda$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Stop$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Runda$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Stop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Start$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Runda$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Wyniki.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$Stop$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Organizator$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/LABPK/kholowaty/jp1/lab13/target/scala-3.2.2/classes.bak[0m

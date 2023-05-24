@@ -39,12 +39,12 @@ class Pracownik extends Actor with ActorLogging {
   def zPodwładnym(podwładny: ActorRef, res: Int): Receive = {
     case Wynik(wynik) => 
       if (res == 0) {
-        log.info(s"I'm here $wynik")
+        // log.info(s"I'm here $wynik")
         context.become(zPodwładnym(podwładny,wynik))
       }
       else {
-        log.info(s"res: $res")
-        log.info(s"wynik: $wynik")
+        // log.info(s"res: $res")
+        // log.info(s"wynik: $wynik")
         val result = res + wynik
         log.info(s"My result: $result")
         podwładny ! Wynik(result)
