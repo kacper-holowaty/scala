@@ -31,25 +31,130 @@ class Organizator extends Actor with ActorLogging {
       // oraz Grupy eliminacyjnej
       val zawodnicy = List.fill(50) {
         val o = Utl.osoba()
-        // log.info(s"$o")
         context.actorOf(Props(Zawodnik(o)), s"${o.imie}-${o.nazwisko}" filter akkaPathAllowedChars)
       }
-      // val grupa1 = context.actorOf(Props(Grupa(zawodnicy)), "grupa_eliminacyjna")
-      // grupa1 ! Grupa.Runda
-      context.become(grupaEliminacyjna(zawodnicy))
-
-    // Obsługa pozostałych komunikatów
+      log.info(s"Rozpoczynamy zawody! Udział weźmie ${zawodnicy.size} zawodników!")
+      context.become(grupaEliminacyjna(zawodnicy,Map()))
 
     case Stop =>
       log.info("kończymy zawody...")
       context.system.terminate()
   }
-  def grupaEliminacyjna(zawodnicy: List[ActorRef], oddalWynik: Map[ActorRef, Option(Ocena)]=Map()): Receive = {
+  def grupaEliminacyjna(zawodnicy: List[ActorRef], oddaneWyniki: Map[ActorRef, Option[Ocena]]): Receive = {
     case Runda => 
+      log.info("Zaczynamy eliminacje!")
       zawodnicy.head ! Zawodnik.Próba
-      context.become(zawodnicy.tail, Map())
-    case Some(Ocena(n1,n2,n3)) => 
-      context.become(zawodnicy, Map(zawodnicy.head -> Some(Ocena(n1,n2,n3))))
-    case None => // jak dodać kolejny element do mapy? check in home
+      context.become(grupaEliminacyjna(zawodnicy, Map()))
+    case Some(Ocena(n1,n2,n3)) =>
+      if (oddaneWyniki.size == 50) {
+        log.info("Runda eliminacyjna zakończona!")
+        context.become(mamWynikiEliminacji(oddaneWyniki))
+      } 
+      else {
+        log.info(s"Zawodnik: ${zawodnicy.head.path.name} otrzymał: Ocena($n1,$n2,$n3)")
+        zawodnicy.head ! Zawodnik.Próba
+        context.become(grupaEliminacyjna(zawodnicy.tail, oddaneWyniki + (zawodnicy.head -> Some(Ocena(n1,n2,n3)))))
+      }
+    case None => 
+      if (oddaneWyniki.size == 50) {
+        log.info("Runda eliminacyjna zakończona!")
+        context.become(mamWynikiEliminacji(oddaneWyniki))
+      }
+      else {
+        log.info(s"Zawodnik: ${zawodnicy.head.path.name} spalił swoją próbę! Odpada!")
+        zawodnicy.head ! Zawodnik.Próba
+        context.become(grupaEliminacyjna(zawodnicy.tail, oddaneWyniki + (zawodnicy.head -> None)))
+      }
+  }
+  def mamWynikiEliminacji(wyniki: Map[ActorRef, Option[Ocena]]): Receive = {
+    case Wyniki => 
+      val bezNone = wyniki.toList.filter((k,v) => v != None).toList
+      val result = sortResults(bezNone)
+      val toFinal = result.filter((aktor, ocena, id, suma) => id <= 20)
+      val zawodnicyFinalowi = toFinal.map((aktor,ocena,id,suma) => aktor)
+      val ocenyRundaEliminacyjna = toFinal.map((aktor,ocena,id,suma) => ocena)
+      printResults(result)
+      context.become(rundaFinalowa(zawodnicyFinalowi,ocenyRundaEliminacyjna))
+  }
+  def rundaFinalowa(zawodnicy: List[ActorRef], ocenyEliminacje: List[Option[Ocena]],oddaneWyniki: Map[ActorRef, Option[Ocena]]=Map(),eliminacyjna: Map[ActorRef, Option[Ocena]]=Map()): Receive = {
+    case Runda => 
+      log.info("Początek rundy finałowej!")
+      zawodnicy.head ! Zawodnik.Próba
+      context.become(rundaFinalowa(zawodnicy, ocenyEliminacje, oddaneWyniki, eliminacyjna))
+    case Some(Ocena(n1,n2,n3)) =>
+      if (oddaneWyniki.size == 20) {
+        log.info("Runda finałowa zakończona!")
+        context.become(wynikiKoncowe(oddaneWyniki,eliminacyjna))
+      } 
+      else {
+        log.info(s"W finale zawodnik: ${zawodnicy.head.path.name} otrzymał: Ocena($n1,$n2,$n3)")
+        zawodnicy.head ! Zawodnik.Próba
+        context.become(rundaFinalowa(zawodnicy.tail, ocenyEliminacje.tail, oddaneWyniki + (zawodnicy.head -> Some(Ocena(n1,n2,n3))), eliminacyjna + (zawodnicy.head -> ocenyEliminacje.head)))
+      }
+    case None => 
+      if (oddaneWyniki.size == 20) {
+        log.info("Runda finałowa zakończona!")
+        context.become(wynikiKoncowe(oddaneWyniki,eliminacyjna))
+      }
+      else {
+        log.info(s"W finale zawodnik: ${zawodnicy.head.path.name} spalił swoją próbę! Nie dostanie już więcej punktów!")
+        zawodnicy.head ! Zawodnik.Próba
+        context.become(rundaFinalowa(zawodnicy.tail, ocenyEliminacje.tail, oddaneWyniki + (zawodnicy.head -> None),eliminacyjna + (zawodnicy.head -> ocenyEliminacje.head)))
+      }  
+  }
+  def wynikiKoncowe(finalowaPunktacja: Map[ActorRef, Option[Ocena]], eliminacyjnaPunktacja: Map[ActorRef, Option[Ocena]]): Receive = {
+    case Wyniki => 
+      val finalowa = finalowaPunktacja.toList
+      val eliminacyjna = eliminacyjnaPunktacja.toList
+      val zip2list = finalowa.zip(eliminacyjna)
+      val wspolna = zip2list.map({case ((aktor1,ocena1),(aktor2,ocena2)) => (aktor1,ocena1,ocena2)})
+      val oceny = wspolna.map({
+        case (aktor,Some(Ocena(n1,n2,n3)),Some(Ocena(m1,m2,m3))) => (aktor,Some(Ocena(n1+m1,n2+m2,n3+m3)))
+        case (aktor,None,Some(Ocena(n1,n2,n3))) => (aktor,Some(Ocena(n1,n2,n3)))
+        case (aktor,_,_) => (aktor,None)
+      })
+      val result = sortResults(oceny)
+      printResults(result)
+  }
+  def sortResults(lista: List[(ActorRef, Option[Ocena])]): List[(ActorRef,Option[Ocena],Int,Int)] = {
+    val posortowane = lista.sortWith({
+        case ((_, Some(ocena1)),(_,Some(ocena2))) => {
+          if (ocena1._1 + ocena1._2 + ocena1._3 == ocena2._1 + ocena2._2 + ocena2._3) {
+            if (ocena1._1 == ocena2._1) {
+              ocena1._3 > ocena2._3
+            }
+            else {
+              ocena1._1 > ocena2._1
+            }
+          }
+          else {
+            ocena1._1 + ocena1._2 + ocena1._3 > ocena2._1 + ocena2._2 + ocena2._3
+          }
+        } 
+        case _ => false
+      })
+      val posortowaneZindeksem = posortowane.zipWithIndex.map({
+        case ((aktor,Some(ocena)),id) => (aktor,Some(ocena),id,ocena._1+ocena._2+ocena._3)
+        case ((aktor, _), id) => (aktor, None, id, 0)
+      })
+      val result = posortowaneZindeksem.foldLeft(List[(ActorRef,Option[Ocena],Int,Int)]())({
+        case (akum,(aktor,Some(ocena),id,suma)) => akum match {
+          case Nil => (aktor,Some(ocena),id+1,suma) :: akum
+          case (_,Some(ocenaHead), _, sumaHead) :: _ if (suma == sumaHead && ocena._1 == ocenaHead._1 && ocena._3 == ocenaHead._3) => (aktor,Some(ocena),id,suma) :: akum
+          case (_,Some(ocenaHead), _, sumaHead) :: _ => (aktor,Some(ocena),id+1,suma) :: akum
+          case _ => akum
+        }
+        case _ => Nil
+      }).reverse
+      result
+  } 
+  def printResults(lista: List[(ActorRef, Option[Ocena], Int, Int)]): Unit = {
+     val niceResults = lista.foldLeft("")({case (akum,(aktor,Some(ocena),id,suma)) => {
+        val a = s"${aktor.path.name}"
+        val nazwisko = a.split("-").map(_.capitalize).mkString(" ")
+        akum + s"${id}. ${nazwisko} - ${ocena._1}-${ocena._2}-${ocena._3} = ${suma} \n"
+      }
+      case _ => ""})
+      println(s"\n$niceResults")
   }
 }
