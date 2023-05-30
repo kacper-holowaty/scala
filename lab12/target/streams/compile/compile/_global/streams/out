@@ -1,19 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala:54:26 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m54 |[0m      [33mval[0m [36mfib_k[0m = fib_n + cache.getOrElse(k - [31m1[0m, [31m0[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: cache[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `cache` is not bound, that is,[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `cache` or its declaration has either been[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
-[0m[[0m[31merror[0m] [0m[0mThe identifier for `cache` is not bound, that is,[0m
-[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
-[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `cache` or its declaration has either been[0m
-[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /mnt/c/Users/kacpe/.vscode/extensions/jp1/lab12/src/main/scala/Zad_02.scala:38:46 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m        [33mval[0m [36mpracownik[0m = context.actorOf(Props([33mnew[0m [35mPracownik[0m(k)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                              ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmissing argument for parameter cache of [33mconstructor[0m [35mPracownik[0m in [33mclass[0m [35mPracownik[0m: (k: Int, cache: Map[Int, BigInt]): lab12_2.Pracownik[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
