@@ -22,7 +22,7 @@ object Grupa {
 
 
 // nie tworzyć aktora typu grupa, chyba że chcę sobie utrudnić
-class Grupa(zawodnicy: List[ActorRef]) extends Actor with ActorLogging {
+// class Grupa(zawodnicy: List[ActorRef]) extends Actor with ActorLogging {
   // def receive: Receive = {
   //   case Grupa.Runda => 
   //     zawodnicy.head ! Zawodnik.Próba
@@ -33,4 +33,4 @@ class Grupa(zawodnicy: List[ActorRef]) extends Actor with ActorLogging {
   //     zawodnicy.head ! Zawodnik.Próba 
   //     context.become(rozgrywanieGrupy(zawodnicy.tail))
   // }
-}
+// }

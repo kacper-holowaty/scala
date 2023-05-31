@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/LABPK/kholowaty/jp1/lab14/src/main/scala/Bitwa.scala:40:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m  [33mcase[0m Strzała => [0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m You have to provide either [33mclass[0m, [33mtrait[0m, [33mobject[0m, or [33menum[0m definitions after qualifiers[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mYou have to provide either [33mclass[0m, [33mtrait[0m, [33mobject[0m, or [33menum[0m definitions after qualifiers[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

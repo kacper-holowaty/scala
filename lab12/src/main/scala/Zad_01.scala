@@ -29,7 +29,6 @@ class Pracownik extends Actor with ActorLogging {
       else {
         val w1 = context.actorOf(Props[Pracownik](),"w1")
         val w2 = context.actorOf(Props[Pracownik](),"w2")
-        log.info(s"Wywolaj dla: $liczba")
         w1 ! Oblicz(liczba-1)
         w2 ! Oblicz(liczba-2)
         context.become(zPodwładnym(sender(),0))
@@ -39,15 +38,11 @@ class Pracownik extends Actor with ActorLogging {
   def zPodwładnym(podwładny: ActorRef, res: Int): Receive = {
     case Wynik(wynik) => 
       if (res == 0) {
-        // log.info(s"I'm here $wynik")
         context.become(zPodwładnym(podwładny,wynik))
       }
       else {
-        // log.info(s"res: $res")
-        // log.info(s"wynik: $wynik")
-        val result = res + wynik
-        log.info(s"My result: $result")
-        podwładny ! Wynik(result)
+        val sum = wynik + res
+        podwładny ! Wynik(sum)
       }
   }
 }

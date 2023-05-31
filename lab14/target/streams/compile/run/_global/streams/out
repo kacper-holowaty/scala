@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0mcom.typesafe.config.ConfigException$Missing: merge of system properties,application.conf @ jar:file:/home/LABPK/kholowaty/jp1/toRemove/target/bg-jobs/sbt_64de9fc5/job-1/target/92f4b11a/3763da33/laboratorium_14_3-1.0.0.jar!/application.conf: 1,reference.conf @ jar:file:/home/LABPK/kholowaty/jp1/toRemove/target/bg-jobs/sbt_64de9fc5/target/630a7076/37da6148/akka-actor_3-2.6.20.jar!/reference.conf: 1: No configuration setting found for key 'planista'[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:157)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:177)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:194)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.getConfigNumber(SimpleConfig.java:224)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.config.impl.SimpleConfig.getInt(SimpleConfig.java:235)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jp1.akka.lab14.Bitwa$package$.go(Bitwa.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jp1.akka.lab14.go.main(Bitwa.scala:26)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1980)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1919)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:366)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) com.typesafe.config.ConfigException$Missing: merge of system properties,application.conf @ jar:file:/home/LABPK/kholowaty/jp1/toRemove/target/bg-jobs/sbt_64de9fc5/job-1/target/92f4b11a/3763da33/laboratorium_14_3-1.0.0.jar!/application.conf: 1,reference.conf @ jar:file:/home/LABPK/kholowaty/jp1/toRemove/target/bg-jobs/sbt_64de9fc5/target/630a7076/37da6148/akka-actor_3-2.6.20.jar!/reference.conf: 1: No configuration setting found for key 'planista'[0m

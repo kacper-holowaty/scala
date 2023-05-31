@@ -28,12 +28,14 @@ def zawody: Unit = {
           // polecenie rozegrania rundy eliminacyjnej
           organizator ! Organizator.Runda
         case "finał" =>
+          organizator ! Organizator.Runda
           // polecenie rozegrania rundy finałowej
           // wymaga zamknięcia Rundy eliminacyjnej i utworzenie
           // Rundy finałowej, zawierającej najlepszych 20.
           // zawodników z Rundy eliminacyjnej
         case "wyniki" =>
           // żądanie rankingów (lub rankingu finałowego)
+          organizator ! Organizator.Wyniki
         case "stop" =>
           organizator ! Organizator.Stop
           break()
