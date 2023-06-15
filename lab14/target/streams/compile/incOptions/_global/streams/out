@@ -1,12 +1,16 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/LABPK/kholowaty/jp1/lab14/target/scala-3.2.2/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /mnt/c/Users/kacpe/.vscode/extensions/jp1/lab14/target/scala-3.2.2/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	go.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package.class[0m
@@ -18,8 +22,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca$$anon$3.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	go.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package.tasty[0m
@@ -32,8 +40,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	go.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package.class[0m
@@ -45,8 +57,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca$$anon$3.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	go.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package.tasty[0m
@@ -59,8 +75,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	go.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package.class[0m
@@ -72,12 +92,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca$$anon$3.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dead$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Obrońca.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Nadzorca$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pudło.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	go.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzała.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bitwa$package.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzał$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Strzał.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Zamek$$anon$2.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/LABPK/kholowaty/jp1/lab14/target/scala-3.2.2/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /mnt/c/Users/kacpe/.vscode/extensions/jp1/lab14/target/scala-3.2.2/classes.bak[0m

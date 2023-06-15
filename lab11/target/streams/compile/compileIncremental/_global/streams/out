@@ -2,27 +2,27 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 53 products, 5 sources, 3 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Zad_04.scala, ${BASE}/src/main/scala/Zad_02.scala, ${BASE}/src/main/scala/Zad_03.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/Zad_01.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Zad_04.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Zad_03.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Zad_04.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Zad_03.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(lab11_4.main4a, lab11_4.Zad_04$package, lab11_4.Gracz04a, lab11_4.Graj04b, lab11_4.Gracz04b, lab11_4.main4b, lab11_4.Piłeczka, lab11_4.Graj04a)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(lab11_3.Gracz03, lab11_3.main3, lab11_3.Graj03, lab11_3.Zad_03$package, lab11_3.Piłeczka)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(lab11_4.main4a, lab11_4.Zad_04$package, lab11_4.Gracz04a, lab11_4.Graj04b, lab11_4.Gracz04b, lab11_4.main4b, lab11_4.Piłeczka, lab11_4.Graj04a)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Zad_04.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11_4.main4a, lab11_4.Zad_04$package, lab11_4.Gracz04a, lab11_4.Graj04b, lab11_4.Gracz04b, lab11_4.main4b, lab11_4.Piłeczka, lab11_4.Graj04a[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(lab11_3.Gracz03, lab11_3.main3, lab11_3.Graj03, lab11_3.Zad_03$package, lab11_3.Piłeczka)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Zad_03.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lab11_3.Gracz03, lab11_3.main3, lab11_3.Graj03, lab11_3.Zad_03$package, lab11_3.Piłeczka[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\kacpe\.vscode\extensions\jp1\lab11\target\scala-3.2.2\classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.2.2\scala3-sbt-bridge-3.2.2.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 1b8eccac for Scala Compiler version 3.2.2[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /mnt/c/Users/kacpe/.vscode/extensions/jp1/lab11/target/scala-3.2.2/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.2.2/scala3-sbt-bridge-3.2.2.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 19413487 for Scala Compiler version 3.2.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-explain[0m
@@ -35,10 +35,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
 [0m[[0m[0mdebug[0m] [0m[0m	utf8[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.2.2\scala3-library_3-3.2.2.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar:/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\kacpe\.vscode\extensions\jp1\lab11\target\scala-3.2.2\classes;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_3\2.6.20\akka-actor_3-2.6.20.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_3\2.6.20\akka-slf4j_3-2.6.20.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_3\1.0.0\scala-java8-compat_3-1.0.0.jar;C:\Users\kacpe\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.3729731 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/mnt/c/Users/kacpe/.vscode/extensions/jp1/lab11/target/scala-3.2.2/classes:/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.6.20/akka-actor_3-2.6.20.jar:/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_3/2.6.20/akka-slf4j_3-2.6.20.jar:/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar:/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0.jar:/home/kholowaty/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.0858396 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m

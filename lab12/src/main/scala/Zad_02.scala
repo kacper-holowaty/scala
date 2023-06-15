@@ -33,46 +33,98 @@ class Nadzorca(cache: Map[Int, BigInt] = Map(1 -> 1, 2 -> 1), boss: ActorRef) ex
         log.info(s"Sprawdzam...dla $k")
         log.info(s"$cache")
         val fib_n = cache(k)
-        boss ! Wynik(k, fib_n)
+        sender() ! Wynik(k, fib_n)
       }
       else {
-        val pracownik = context.actorOf(Props(new Pracownik(k,cache)))
+        val pracownik = context.actorOf(Props(new Pracownik(k,boss)))
         log.info("Tworze pracownika")
         pracownik ! Oblicz(k)
-        // context.become(obliczaj(cache))
       }
     case Wynik(k, fib_n) =>
+      log.info("jestem w wyniku u Nadzorcy PogU")
       log.info(s"$cache")
-      // cache.updated(k, fib_n)
+      boss ! Wynik(k, fib_n)
       val newCache = cache + (k -> fib_n)
-      sender() ! Wynik(k, fib_n)
       context.become(obliczaj(newCache))
   }
 }
 
-class Pracownik(k: Int,cache: Map[Int, BigInt]) extends Actor with ActorLogging {
-  def receive: Receive = helper(cache)
+class Pracownik(k: Int, boss: ActorRef) extends Actor with ActorLogging {
+  // def receive: Receive = keepGoing(None,None)
+    
+  // def keepGoing(prev1: Option[BigInt],prev2: Option[BigInt]): Receive = {
+  //   // case Oblicz(number) if k <= 2 => 
+  //   //   log.info("BUUUUU")
+  //   //   sender() ! Wynik(k, 1)
+  //   case Oblicz(number) => 
+  //     val nadzorca = context.parent
+  //     log.info(s"${nadzorca.path.name} - to mój tata!")
+  //     nadzorca ! Oblicz(k-2)
+  //     nadzorca ! Oblicz(k-1)
+  //   case Wynik(key, value) if key == k-1 => 
+  //     val nadzorca = context.parent
+  //     prev1 = Some(value)
+  //     // nadzorca ! Wynik(n, fib_n)
+  //     check(prev1,prev2)
+  //   case Wynik(key, value) if key == k-2 => 
+  //     val nadzorca = context.parent
+  //     prev2 = Some(value)
+  //     // nadzorca ! Wynik(n, fib_n)
+  //     check(prev1,prev2,nadzorca)
+  // }
+  // def check(prev1: Option[BigInt], prev2: Option[BigInt], nadzorca: ActorRef): Unit = {
+  //   (prev1,prev2) match {
+  //     case (Some(prev1),Some(prev2)) => {
+  //       val result = prev1 + prev2
+  //       boss ! Wynik(k,result)
+  //       nadzorca ! Wynik(k,result)
+  //       context.stop(self)
+  //     }
+  //     case _ => 
 
-  def helper(cache: Map[Int, BigInt]): Receive = {
-    case Oblicz(number) if k <= 2 => 
-      sender() ! Wynik(k, 1)
-    case Oblicz(number) => 
-      val nadzorca = context.parent
-      log.info(s"${nadzorca.path.name} - to mój tata!")
-      nadzorca ! Oblicz(k-2)
-      nadzorca ! Oblicz(k-1)
-    case Wynik(n, fib_n) => 
-      val nadzorca = context.parent
-      nadzorca ! Wynik(n, fib_n)
-      val fib_k = fib_n + cache.getOrElse(k - 1, 0)
-      nadzorca ! Wynik(k, fib_k) 
-  }   
+  //   }
+  // }   
+  private val nadzorca: ActorRef = context.parent
+
+  def receive: Receive = {
+    case Oblicz(_) =>
+      if (k <= 2) {
+        nadzorca ! Wynik(k, 1)
+      } else {
+        nadzorca ! Oblicz(k - 1)
+        nadzorca ! Oblicz(k - 2)
+      }
+    case Wynik(index, prev) if index == k - 1 =>
+      context.become(receiveWithPrev(prev))
+    case Wynik(index, prev) if index == k - 2 =>
+      context.become(receiveWithPrev(prev, Some(prev)))
+    case Wynik(_, _) =>
+      // Ignore results for other indices
+  }
+
+  def receiveWithPrev(prev: BigInt, prev2Opt: Option[BigInt] = None): Receive = {
+    case Oblicz(_) =>
+      prev2Opt match {
+        case Some(prev2) =>
+          val result = prev + prev2
+          nadzorca ! Wynik(k, result)
+          context.stop(self)
+        case None =>
+        // Wait for prev2
+      }
+    case Wynik(index, prev2) if index == k - 2 =>
+      val result = prev + prev2
+      nadzorca ! Wynik(k, result)
+      context.stop(self)
+    case Wynik(_, _) =>
+      // Ignore results for other indices
+  }
 }
 
 @main def main: Unit = {
   val system = ActorSystem("Fibonacci")
   val boss = system.actorOf(Props[Boss](),"boss")
-  boss ! Oblicz(4)
+  boss ! Oblicz(8)
   // system.terminate()
 }
 
