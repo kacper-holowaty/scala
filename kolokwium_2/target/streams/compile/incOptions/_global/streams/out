@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/LABPK/kholowaty/jp1/kolokwium_2/target/scala-3.3.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Wstaw.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Szukaj.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pracownik$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/LABPK/kholowaty/jp1/kolokwium_2/target/scala-3.3.0/classes.bak[0m

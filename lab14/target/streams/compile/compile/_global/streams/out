@@ -1,13 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/LABPK/kholowaty/jp1/lab14/src/main/scala/Bitwa.scala:40:2 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m  [33mcase[0m Strzała => [0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Expected start of definition[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m You have to provide either [33mclass[0m, [33mtrait[0m, [33mobject[0m, or [33menum[0m definitions after qualifiers[0m
-[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
-[0m[[0m[31merror[0m] [0m[0mYou have to provide either [33mclass[0m, [33mtrait[0m, [33mobject[0m, or [33menum[0m definitions after qualifiers[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /mnt/c/Users/kacpe/.vscode/extensions/jp1/lab14/src/main/scala/Bitwa.scala:56:56 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m          log.info([31ms"Koniec bitwy! Wygrywa [0m${przeciwnik.path}[31m"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                             ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[33mvalue[0m [35mpath[0m cannot be accessed as a member of (przeciwnik : akka.actor.ActorSelection) from class Zamek.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Access to protected [33mvalue[0m [35mpath[0m not permitted because enclosing [33mclass[0m [35mZamek[0m in [33mpackage[0m [35mjp1.akka.lab14[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m is not a subclass of [33mclass[0m [35mActorSelection[0m in [33mpackage[0m [35makka.actor[0m where target is defined[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
