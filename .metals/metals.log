@@ -13852,3 +13852,327 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.06.15 15:45:29 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
 2023.06.15 15:45:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
 2023.06.15 15:45:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
+2023.06.15 18:38:32 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.79.1.
+cze 15, 2023 6:38:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 15, 2023 6:38:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 15, 2023 6:38:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 15, 2023 6:38:37 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+cze 15, 2023 6:38:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.076s)
+cze 15, 2023 6:38:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+cze 15, 2023 6:38:38 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.15 18:38:38 INFO  time: initialize in 5.81s
+2023.06.15 18:38:43 WARN  Build server is not auto-connectable.
+2023.06.15 18:38:43 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.15 18:38:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
+2023.06.15 18:38:52 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.15 18:38:58 INFO  time: code lens generation in 14s
+2023.06.15 20:17:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_01.scala
+2023.06.15 20:17:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Main.scala
+2023.06.15 20:17:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_01.scala
+2023.06.15 20:18:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_02.scala
+2023.06.15 20:18:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala
+2023.06.15 20:20:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_04.scala
+2023.06.15 20:22:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Main.scala
+2023.06.15 20:22:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_01.scala
+2023.06.15 20:27:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.15 20:28:44 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\zawody.scala
+2023.06.15 20:29:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Ocena.scala
+2023.06.15 20:29:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Organizator.scala
+2023.06.15 20:29:56 INFO  time: code lens generation in 1.44s
+2023.06.15 20:30:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab14\src\main\scala\Bitwa.scala
+2023.06.15 21:00:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Kierowca.scala
+2023.06.15 21:00:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Organizator.scala
+2023.06.15 21:12:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_14\src\main\scala\01_Monitoring.scala
+2023.06.15 21:12:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_14\src\main\scala\02_Supervision.scala
+2023.06.15 21:21:41 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_14\src\main\scala\03_Auction.scala
+2023.06.15 21:21:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_14\src\main\scala\01_Monitoring.scala
+2023.06.15 21:21:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_14\src\main\scala\04_Server.scala
+2023.06.15 21:22:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_14\src\main\scala\01_Monitoring.scala
+2023.06.15 21:51:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\01_Paths.scala
+2023.06.15 21:51:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\02_Paths.scala
+2023.06.15 21:51:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\01_Paths.scala
+2023.06.15 21:51:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\02_Paths.scala
+2023.06.15 21:51:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\03_Scheduler.scala
+2023.06.15 21:57:53 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\02_Paths.scala
+2023.06.15 21:57:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\01_Paths.scala
+2023.06.15 21:58:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\zawody.scala
+2023.06.15 21:58:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Grupa.scala
+2023.06.15 21:58:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.15 22:03:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Osoba.scala
+2023.06.15 22:03:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Utl.scala
+2023.06.15 22:03:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Zawodnik.scala
+2023.06.15 22:03:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Osoba.scala
+2023.06.15 22:03:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.15 22:04:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Ocena.scala
+2023.06.15 22:04:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Grupa.scala
+2023.06.15 22:06:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\LeMans.scala
+2023.06.15 22:06:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Organizator.scala
+2023.06.15 22:06:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Samochód.scala
+2023.06.15 23:14:52 INFO  Shutting down server
+2023.06.15 23:14:52 INFO  shutting down Metals
+2023.06.15 23:14:52 INFO  Exiting server
+2023.06.16 10:41:04 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.79.2.
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.037s)
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+cze 16, 2023 10:41:04 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.16 10:41:05 INFO  time: initialize in 1.05s
+2023.06.16 10:41:09 WARN  Build server is not auto-connectable.
+2023.06.16 10:41:09 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.16 10:41:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
+2023.06.16 10:41:14 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.16 10:41:17 INFO  time: code lens generation in 8.87s
+2023.06.16 11:03:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Samochód.scala
+2023.06.16 11:03:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\LeMans.scala
+2023.06.16 11:03:57 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Samochód.scala
+2023.06.16 11:03:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Organizator.scala
+2023.06.16 11:21:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.16 11:24:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab09\src\main\scala\MyList.scala
+2023.06.16 11:25:02 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_01.scala
+2023.06.16 11:25:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_02.scala
+2023.06.16 11:25:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab07\src\main\scala\Zad_03.scala
+2023.06.16 11:25:52 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.16 13:25:57 INFO  Shutting down server
+2023.06.16 13:25:57 INFO  shutting down Metals
+2023.06.16 13:25:57 INFO  Exiting server
+2023.06.19 10:25:57 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.79.2.
+cze 19, 2023 10:25:57 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 19, 2023 10:25:57 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 19, 2023 10:25:57 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 19, 2023 10:25:58 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+cze 19, 2023 10:25:58 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.061s)
+cze 19, 2023 10:25:58 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+cze 19, 2023 10:25:58 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.19 10:25:58 INFO  time: initialize in 1.39s
+2023.06.19 10:26:03 WARN  Build server is not auto-connectable.
+2023.06.19 10:26:03 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.19 10:26:03 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.19 10:26:10 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.19 10:26:16 INFO  time: code lens generation in 13s
+2023.06.19 10:26:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\zadanie.scala
+2023.06.19 10:26:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Szef.scala
+2023.06.19 10:26:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.19 10:27:31 INFO  Shutting down server
+2023.06.19 10:27:31 INFO  shutting down Metals
+2023.06.19 10:27:31 INFO  Exiting server
+2023.06.24 09:02:07 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.79.2.
+cze 24, 2023 9:02:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 24, 2023 9:02:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 24, 2023 9:02:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 24, 2023 9:02:08 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+cze 24, 2023 9:02:08 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.043s)
+cze 24, 2023 9:02:08 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+cze 24, 2023 9:02:08 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.24 09:02:08 INFO  time: initialize in 1.03s
+2023.06.24 09:02:12 WARN  Build server is not auto-connectable.
+2023.06.24 09:02:12 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.24 09:02:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.24 09:02:17 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Pracownik.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 09:02:21 INFO  time: code lens generation in 9.16s
+2023.06.24 09:05:41 INFO  Shutting down server
+2023.06.24 09:05:41 INFO  shutting down Metals
+2023.06.24 09:05:41 INFO  Exiting server
+2023.06.25 14:28:31 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\kacpe\.vscode\extensions\jp1' for client Visual Studio Code 1.79.2.
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\kacpe\.vscode\extensions\jp1\.metals\metals (H2 2.1)
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+cze 25, 2023 2:28:31 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.25 14:28:32 INFO  time: initialize in 0.99s
+2023.06.25 14:28:35 WARN  Build server is not auto-connectable.
+2023.06.25 14:28:35 WARN  no build tool detected in workspace 'C:\Users\kacpe\.vscode\extensions\jp1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.25 14:28:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 14:28:39 INFO  no build target found for C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Pracownik.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 14:28:43 INFO  time: code lens generation in 7.52s
+2023.06.25 14:30:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\Szef.scala
+2023.06.25 14:30:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\kolokwium_2\src\main\scala\zadanie.scala
+2023.06.25 14:31:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Pracownik.scala
+2023.06.25 14:31:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Szef.scala
+2023.06.25 14:31:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+2023.06.25 14:31:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Szef.scala
+2023.06.25 14:42:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Pracownik.scala
+2023.06.25 14:42:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+2023.06.25 14:42:49 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+2023.06.25 14:43:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+cze 25, 2023 2:44:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 160
+2023.06.25 14:44:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Szef.scala
+2023.06.25 14:44:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+2023.06.25 16:03:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\LeMans.scala
+2023.06.25 16:09:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Kierowca.scala
+2023.06.25 16:09:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Organizator.scala
+2023.06.25 16:10:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Samochód.scala
+2023.06.25 16:10:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
+2023.06.25 16:12:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Samochód.scala
+2023.06.25 16:12:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Kierowca.scala
+2023.06.25 16:13:33 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Zad_03.scala
+2023.06.25 16:13:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_06.scala
+2023.06.25 16:13:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_05.scala
+2023.06.25 16:13:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\src\main\scala\Wyk_04.scala
+2023.06.25 16:13:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\01_Paths.scala
+2023.06.25 16:14:20 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\02_Paths.scala
+2023.06.25 16:14:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\wyk_13\src\main\scala\03_Scheduler.scala
+2023.06.25 16:24:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab14\src\main\scala\Bitwa.scala
+2023.06.25 16:27:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\zawody.scala
+2023.06.25 16:27:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Ocena.scala
+2023.06.25 16:27:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Grupa.scala
+2023.06.25 16:28:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Ocena.scala
+2023.06.25 16:28:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.25 16:30:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Osoba.scala
+2023.06.25 16:30:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Utl.scala
+2023.06.25 16:30:42 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Zawodnik.scala
+2023.06.25 16:30:54 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\zawody.scala
+2023.06.25 16:30:58 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Grupa.scala
+2023.06.25 16:31:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Ocena.scala
+2023.06.25 16:31:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Organizator.scala
+2023.06.25 16:34:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Ocena.scala
+2023.06.25 16:34:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Osoba.scala
+2023.06.25 16:34:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Utl.scala
+2023.06.25 16:34:36 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Zawodnik.scala
+2023.06.25 16:34:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Ocena.scala
+2023.06.25 16:34:40 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\model\Organizator.scala
+2023.06.25 16:34:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Main.scala
+2023.06.25 16:35:01 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_01.scala
+2023.06.25 16:35:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 17:25:30 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 17:25:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_01.scala
+2023.06.25 17:45:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 17:45:33 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:04:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:20:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+cze 25, 2023 9:20:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 945
+cze 25, 2023 9:20:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 995
+2023.06.25 21:20:48 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:25:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:25:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:25:47 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:32:35 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:34:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:34:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:34:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:34:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:34:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:06 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:21 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:35:24 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:36:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:36:28 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:37:26 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:38:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+cze 25, 2023 9:39:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2145
+2023.06.25 21:39:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:39:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+cze 25, 2023 9:43:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2293
+2023.06.25 21:44:31 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:44:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:44:39 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:45:14 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:45:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:45:17 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:45:32 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:46:18 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:46:22 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Zad_02.scala
+2023.06.25 21:46:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab10\src\main\scala\Frm.scala
+2023.06.25 21:46:38 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_01.scala
+2023.06.25 21:47:08 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_01.scala
+2023.06.25 21:47:15 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_01.scala
+2023.06.25 21:47:34 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_02.scala
+2023.06.25 21:49:04 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala
+2023.06.25 21:50:45 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_03.scala
+2023.06.25 21:50:55 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab11\src\main\scala\Zad_04.scala
+2023.06.25 21:52:07 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab12\src\main\scala\Main.scala
+2023.06.25 21:56:11 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13\src\main\scala\zawody.scala
+2023.06.25 21:56:37 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\zawody.scala
+2023.06.25 21:56:43 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Grupa.scala
+2023.06.25 21:57:50 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.25 22:04:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Grupa.scala
+2023.06.25 22:07:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Osoba.scala
+2023.06.25 22:07:09 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Utl.scala
+2023.06.25 22:07:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Zawodnik.scala
+2023.06.25 22:07:12 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Ocena.scala
+2023.06.25 22:07:13 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab13_v2\src\main\scala\model\Organizator.scala
+2023.06.25 22:07:51 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\lab14\src\main\scala\Bitwa.scala
+2023.06.25 22:08:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Kierowca.scala
+2023.06.25 22:11:59 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Organizator.scala
+2023.06.25 22:14:05 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Samochód.scala
+2023.06.25 22:14:10 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos_akka_2022\src\main\scala\aktorzy\Warsztat.scala
+2023.06.25 22:14:25 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Pracownik.scala
+2023.06.25 22:14:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+2023.06.25 22:24:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Pracownik.scala
+2023.06.25 22:31:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala

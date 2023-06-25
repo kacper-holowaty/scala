@@ -14,7 +14,7 @@ class Gracz01 extends Actor with ActorLogging {
         case Piłeczka => 
             log.info(s"odbijam piłeczkę do ${sender().path.name}")
             sender() ! Piłeczka
-        //     context.become(gramyDalej)
+            context.become(gramyDalej)
     }
     
     def gramyDalej: Receive = {
