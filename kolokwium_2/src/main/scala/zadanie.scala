@@ -26,7 +26,12 @@ private def dane: List[String] = {
 @main def main: Unit = {
   val system = ActorSystem("sys")
   val szef = system.actorOf(Props[Szef](), "szef")
-  // println(dane)
-  // szef ! W("nie")
-  szef ! I("nie")
+  for {
+    x <- dane
+  } szef ! W(x)
+  szef ! I("xyz")
+  szef ! I("trafiały")
+  szef ! I("nie")  
+  szef ! I("się")  
+  szef ! I("brzoza") 
 }

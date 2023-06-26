@@ -2,8 +2,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pracownik.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj.class[0m
@@ -11,8 +9,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pracownik.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj.tasty[0m
@@ -21,8 +17,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pracownik.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj.class[0m
@@ -30,8 +24,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pracownik.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj.tasty[0m
@@ -40,8 +32,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pracownik.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj.class[0m
@@ -49,8 +39,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	DoPracownika.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AlterWstaw$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Wstaw.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pracownik.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Szukaj.tasty[0m

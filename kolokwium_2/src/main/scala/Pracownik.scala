@@ -1,40 +1,42 @@
 package kolokwium_2
 
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.{Actor, ActorLogging, Props, ActorRef}
 
 abstract class DoPracownika
 case class Wstaw(słowo: String) extends DoPracownika
-case class Szukaj(słowo: String, basic: String, counter: Int=0, actual: List[String]=dane) extends DoPracownika
-case class AlterWstaw(słowo: String, counter: Int) extends DoPracownika
+case class Szukaj(słowo: String, słowoPoczątkowe: String) extends DoPracownika
 
 class Pracownik extends Actor with ActorLogging {
-  def receive: Receive = zDanymi(dane)
-  def zDanymi(data: List[String]): Receive = {
-    case Wstaw(słowo) => log.info("to duuu")
-    case AlterWstaw(słowo,counter) => 
-      if (słowo.nonEmpty) {
-        val first = context.actorOf(Props[Pracownik](),"w")
-        val newData = data.filter(n => n(counter) == słowo.head)
-        context.become(zDanymi(data))
-        first ! AlterWstaw(słowo.tail,counter+1)
-      } 
-      else {
-        log.info("Koniec słowa")
-        val newData = data :+ słowo
-        context.become(zDanymi(newData))
-        val szef = context.actorSelection("/user/szef")
+  def receive: Receive = zDanymi(0,Map())
+  def zDanymi(liczbaSłów: Int, workers: Map[Char, ActorRef]): Receive = {
+    case Wstaw(słowo) => 
+      if (słowo.tail.nonEmpty) {
+        if (workers.contains(słowo.tail.head)) {
+          workers(słowo.tail.head) ! Wstaw(słowo.tail)
+        }
+        else {
+          val w = context.actorOf(Props[Pracownik]())
+          w ! Wstaw(słowo.tail)
+          val newWorkers = workers.updated(słowo.tail.head,w)
+          context.become(zDanymi(liczbaSłów, newWorkers))
+        }
       }
-    case Szukaj(słowo,basic,counter,data) => 
-      if (słowo.nonEmpty) {
-        val first = context.actorOf(Props[Pracownik](),"w")
-        val newData = data.filter(n => n(counter) == słowo.head)
-        first ! Szukaj(słowo.tail,basic,counter+1,newData)
-      } 
       else {
-        val lista = data.filter(n => n == basic)
-        val len = lista.length
-        val szef = context.actorSelection("/user/szef")
-        szef ! Ile(basic,len)  
+        val newLiczbaSłów = liczbaSłów+1
+        context.become(zDanymi(newLiczbaSłów, workers))
+      }  
+    case Szukaj(słowo, słowoPoczątkowe) => 
+      val szef = context.actorSelection("/user/szef")
+      if (słowo.tail.nonEmpty) {
+        if (workers.contains(słowo.tail.head)) {
+          workers(słowo.tail.head) ! Szukaj(słowo.tail,słowoPoczątkowe)
+        }
+        else {
+          szef ! Ile(słowoPoczątkowe, 0)
+        }
       }
+      else {
+        szef ! (Ile(słowoPoczątkowe, liczbaSłów))
+      }  
   }
 }

@@ -1,40 +1,19 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/LABPK/kholowaty/jp1/kolokwium_2/src/main/scala/Pracownik.scala:20:22 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m        first ! Wstaw(słowo.tail,[31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                      ^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      Found:    [1m[31m([0mString[1m[31m,[0m[1m[31m [0m[1m[31mInt[0m[1m[31m)[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/LABPK/kholowaty/jp1/kolokwium_2/src/main/scala/Szef.scala:30:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m        self ! Ile(słowoPoczątkowe,[31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                   ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                   Not found: słowoPoczątkowe[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Tree:    20|Tuple2.apply[[35mString[0m, [35mInt[0m](augmentString(słowo).tail, [31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m I tried to show that[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   (String, Int)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m conforms to[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   String[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m but the comparison trace ended with `false`:[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   ==> (String, Int)  <:  String[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     ==> (String, Int)  <:  String[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     <== (String, Int)  <:  String = false[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   <== (String, Int)  <:  String = false[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `słowoPoczątkowe` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `słowoPoczątkowe` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
 [0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0mTree:    20|Tuple2.apply[[35mString[0m, [35mInt[0m](augmentString(słowo).tail, [31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0mI tried to show that[0m
-[0m[[0m[31merror[0m] [0m[0m  (String, Int)[0m
-[0m[[0m[31merror[0m] [0m[0mconforms to[0m
-[0m[[0m[31merror[0m] [0m[0m  String[0m
-[0m[[0m[31merror[0m] [0m[0mbut the comparison trace ended with `false`:[0m
-[0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m  ==> (String, Int)  <:  String[0m
-[0m[[0m[31merror[0m] [0m[0m    ==> (String, Int)  <:  String[0m
-[0m[[0m[31merror[0m] [0m[0m    <== (String, Int)  <:  String = false[0m
-[0m[[0m[31merror[0m] [0m[0m  <== (String, Int)  <:  String = false[0m
-[0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0mThe tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `słowoPoczątkowe` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `słowoPoczątkowe` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
