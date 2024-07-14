@@ -9,11 +9,8 @@ object Zawodnik {
 }
 
 class Zawodnik(o: Osoba) extends Actor with ActorLogging {
-  // override def preStart(): Unit = {
-  //   println(s"${self.path}")
-  // }
   def receive: Receive = {
     case Zawodnik.Próba => 
-      sender() ! Utl.ocena()
+      sender() ! Grupa.Wynik(Utl.ocena())
   }
 }

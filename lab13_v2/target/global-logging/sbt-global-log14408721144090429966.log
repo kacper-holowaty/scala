@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(4b500ff9-a3f4-49b2-9c35-f44ee665c1a8), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\kacpe\.vscode\extensions\jp1\lab13\target\scala-3.2.2\classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 74 s (01:14), completed 27 maj 2023, 15:37:49[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

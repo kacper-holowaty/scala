@@ -33,76 +33,44 @@ class Organizator extends Actor with ActorLogging {
         val o = Utl.osoba()
         context.actorOf(Props(Zawodnik(o)), s"${o.imie}-${o.nazwisko}" filter akkaPathAllowedChars)
       }
-      log.info(s"Rozpoczynamy zawody! Udział weźmie ${zawodnicy.size} zawodników!")
-      context.become(grupaEliminacyjna(zawodnicy,Map()))
-
+      log.info(s"Do eliminacji przystąpi ${zawodnicy.length} zawodników")
+      context.become(eliminacje(zawodnicy))
     case Stop =>
       log.info("kończymy zawody...")
       context.system.terminate()
   }
-  def grupaEliminacyjna(zawodnicy: List[ActorRef], oddaneWyniki: Map[ActorRef, Option[Ocena]]): Receive = {
-    case Runda => 
-      log.info("Zaczynamy eliminacje!")
-      zawodnicy.head ! Zawodnik.Próba
-      context.become(grupaEliminacyjna(zawodnicy, Map()))
-    case Some(Ocena(n1,n2,n3)) =>
-      if (oddaneWyniki.size == 50) {
-        log.info("Runda eliminacyjna zakończona!")
-        context.become(mamWynikiEliminacji(oddaneWyniki))
-      } 
-      else {
-        log.info(s"Zawodnik: ${zawodnicy.head.path.name} otrzymał: Ocena($n1,$n2,$n3)")
-        zawodnicy.head ! Zawodnik.Próba
-        context.become(grupaEliminacyjna(zawodnicy.tail, oddaneWyniki + (zawodnicy.head -> Some(Ocena(n1,n2,n3)))))
-      }
-    case None => 
-      if (oddaneWyniki.size == 50) {
-        log.info("Runda eliminacyjna zakończona!")
-        context.become(mamWynikiEliminacji(oddaneWyniki))
-      }
-      else {
-        log.info(s"Zawodnik: ${zawodnicy.head.path.name} spalił swoją próbę! Odpada!")
-        zawodnicy.head ! Zawodnik.Próba
-        context.become(grupaEliminacyjna(zawodnicy.tail, oddaneWyniki + (zawodnicy.head -> None)))
-      }
+  def eliminacje(zawodnicy: List[ActorRef]): Receive = {
+    case Runda =>   
+      val grupaEliminacyjna = context.actorOf(Props(new Grupa(zawodnicy)),"grupa_eliminacyjna")
+      grupaEliminacyjna ! Grupa.Runda
+    case Wyniki(w) => 
+      log.info("Runda eliminacyjna zakończona! Aby uzyskać wyniki wpisz 'wyniki'")
+      context.become(toFinal(w))
+    case Stop =>
+      log.info("kończymy zawody...")
+      context.system.terminate()
   }
-  def mamWynikiEliminacji(wyniki: Map[ActorRef, Option[Ocena]]): Receive = {
+  def toFinal(wyniki: Map[ActorRef, Option[Ocena]]): Receive = {
     case Wyniki => 
-      val bezNone = wyniki.toList.filter((k,v) => v != None).toList
+      val bezNone = wyniki.filter((k,v) => v != None).toList
+      val result = sortResults(bezNone)
+      printResults(result)
+    case Runda =>
+      val bezNone = wyniki.filter((k,v) => v != None).toList
       val result = sortResults(bezNone)
       val toFinal = result.filter((aktor, ocena, id, suma) => id <= 20)
       val zawodnicyFinalowi = toFinal.map((aktor,ocena,id,suma) => aktor)
       val ocenyRundaEliminacyjna = toFinal.map((aktor,ocena,id,suma) => ocena)
-      printResults(result)
-      context.become(rundaFinalowa(zawodnicyFinalowi,ocenyRundaEliminacyjna))
+      val grupaFinalowa = context.actorOf(Props(new Grupa(zawodnicyFinalowi)),"grupaFinalowa")  
+      grupaFinalowa ! Grupa.Runda
+    case Wyniki(finalowaPunktacja) =>
+      log.info("Runda finałowa zakończona! Aby uzyskać wyniki wpisz 'wyniki'")
+      context.become(finalResults(finalowaPunktacja,wyniki))
+    case Stop =>
+      log.info("kończymy zawody...")
+      context.system.terminate()
   }
-  def rundaFinalowa(zawodnicy: List[ActorRef], ocenyEliminacje: List[Option[Ocena]],oddaneWyniki: Map[ActorRef, Option[Ocena]]=Map(),eliminacyjna: Map[ActorRef, Option[Ocena]]=Map()): Receive = {
-    case Runda => 
-      log.info("Początek rundy finałowej!")
-      zawodnicy.head ! Zawodnik.Próba
-      context.become(rundaFinalowa(zawodnicy, ocenyEliminacje, oddaneWyniki, eliminacyjna))
-    case Some(Ocena(n1,n2,n3)) =>
-      if (oddaneWyniki.size == 20) {
-        log.info("Runda finałowa zakończona!")
-        context.become(wynikiKoncowe(oddaneWyniki,eliminacyjna))
-      } 
-      else {
-        log.info(s"W finale zawodnik: ${zawodnicy.head.path.name} otrzymał: Ocena($n1,$n2,$n3)")
-        zawodnicy.head ! Zawodnik.Próba
-        context.become(rundaFinalowa(zawodnicy.tail, ocenyEliminacje.tail, oddaneWyniki + (zawodnicy.head -> Some(Ocena(n1,n2,n3))), eliminacyjna + (zawodnicy.head -> ocenyEliminacje.head)))
-      }
-    case None => 
-      if (oddaneWyniki.size == 20) {
-        log.info("Runda finałowa zakończona!")
-        context.become(wynikiKoncowe(oddaneWyniki,eliminacyjna))
-      }
-      else {
-        log.info(s"W finale zawodnik: ${zawodnicy.head.path.name} spalił swoją próbę! Nie dostanie już więcej punktów!")
-        zawodnicy.head ! Zawodnik.Próba
-        context.become(rundaFinalowa(zawodnicy.tail, ocenyEliminacje.tail, oddaneWyniki + (zawodnicy.head -> None),eliminacyjna + (zawodnicy.head -> ocenyEliminacje.head)))
-      }  
-  }
-  def wynikiKoncowe(finalowaPunktacja: Map[ActorRef, Option[Ocena]], eliminacyjnaPunktacja: Map[ActorRef, Option[Ocena]]): Receive = {
+  def finalResults(finalowaPunktacja: Map[ActorRef, Option[Ocena]],eliminacyjnaPunktacja: Map[ActorRef, Option[Ocena]]): Receive = {
     case Wyniki => 
       val finalowa = finalowaPunktacja.toList
       val eliminacyjna = eliminacyjnaPunktacja.toList
@@ -115,7 +83,10 @@ class Organizator extends Actor with ActorLogging {
       })
       val result = sortResults(oceny)
       printResults(result)
-  }
+    case Stop =>
+      log.info("kończymy zawody...")
+      context.system.terminate()
+  } 
   def sortResults(lista: List[(ActorRef, Option[Ocena])]): List[(ActorRef,Option[Ocena],Int,Int)] = {
     val posortowane = lista.sortWith({
         case ((_, Some(ocena1)),(_,Some(ocena2))) => {

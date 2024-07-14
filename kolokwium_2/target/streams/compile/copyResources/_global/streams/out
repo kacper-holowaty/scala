@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/LABPK/kholowaty/jp1/kolokwium_2/src/main/resources/dane.txt,/home/LABPK/kholowaty/jp1/kolokwium_2/target/scala-3.3.0/classes/dane.txt)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/LABPK/kholowaty/jp1/kolokwium_2/src/main/resources/application.conf,/home/LABPK/kholowaty/jp1/kolokwium_2/target/scala-3.3.0/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/LABPK/kholowaty/jp1/kolokwium_2/src/main/resources/logback.xml,/home/LABPK/kholowaty/jp1/kolokwium_2/target/scala-3.3.0/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/kacpe/.vscode/extensions/studia/jp1/kolokwium_2/src/main/resources/application.conf,/mnt/c/Users/kacpe/.vscode/extensions/studia/jp1/kolokwium_2/target/scala-3.3.0/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/kacpe/.vscode/extensions/studia/jp1/kolokwium_2/src/main/resources/dane.txt,/mnt/c/Users/kacpe/.vscode/extensions/studia/jp1/kolokwium_2/target/scala-3.3.0/classes/dane.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/kacpe/.vscode/extensions/studia/jp1/kolokwium_2/src/main/resources/logback.xml,/mnt/c/Users/kacpe/.vscode/extensions/studia/jp1/kolokwium_2/target/scala-3.3.0/classes/logback.xml)[0m

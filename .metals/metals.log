@@ -14176,3 +14176,6 @@ WARNING: Unmatched cancel notification for request id 2293
 2023.06.25 22:14:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
 2023.06.25 22:24:27 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\Pracownik.scala
 2023.06.25 22:31:46 WARN  no build target for: C:\Users\kacpe\.vscode\extensions\jp1\notatki\kolos2_2023\src\main\scala\zadanie.scala
+2023.06.25 22:57:07 INFO  Shutting down server
+2023.06.25 22:57:07 INFO  shutting down Metals
+2023.06.25 22:57:07 INFO  Exiting server

@@ -20,17 +20,21 @@ object Grupa {
   // Grupa kończy rywalizację
 }
 
-
-// nie tworzyć aktora typu grupa, chyba że chcę sobie utrudnić
-// class Grupa(zawodnicy: List[ActorRef]) extends Actor with ActorLogging {
-  // def receive: Receive = {
-  //   case Grupa.Runda => 
-  //     zawodnicy.head ! Zawodnik.Próba
-  //     context.become(rozegraj(zawodnicy.tail))
-  // }
-  // def rozegraj(zawodnicy: List[ActorRef]): Receive = {
-  //   case Some(Ocena(n1,n2,n3)) => 
-  //     zawodnicy.head ! Zawodnik.Próba 
-  //     context.become(rozgrywanieGrupy(zawodnicy.tail))
-  // }
-// }
+class Grupa(zawodnicy: List[ActorRef]) extends Actor with ActorLogging {
+  def receive: Receive = {
+    case Grupa.Runda =>
+      zawodnicy.head ! Zawodnik.Próba
+      context.become(przyjmujWyniki(zawodnicy,Map(),zawodnicy.length))
+  }
+  def przyjmujWyniki(zawodnicy: List[ActorRef],akum: Map[ActorRef, Option[Ocena]], maks: Int): Receive = {
+    case Grupa.Wynik(ocena) => 
+      val newMap = akum + (sender() -> ocena)
+      if (newMap.size == maks) {
+        context.parent ! Organizator.Wyniki(newMap)
+      }
+      else {
+        zawodnicy.head ! Zawodnik.Próba
+        context.become(przyjmujWyniki(zawodnicy.tail, newMap, maks))
+      }
+  }
+}
